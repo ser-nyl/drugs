@@ -16,7 +16,7 @@
       {
         "route": "sublingual",
         "units": "µg",
-        "notes": "Ranges below derive from TripSit/Erowid community HR data; very high interindividual variability; microgram-level potency demands precise measurement; never eyeball; consider volumetric dosing with known concentration. Avoid redosing early as buccal absorption is slow and erratic. citeturn8search1turn8search2",
+        "notes": "Ranges below derive from TripSit/Erowid community HR data; very high interindividual variability; microgram-level potency demands precise measurement; never eyeball; consider volumetric dosing with known concentration. Avoid redosing early as buccal absorption is slow and erratic.",
         "dose_ranges": {
           "threshold": "100–200 µg",
           "light": "200–400 µg",
@@ -40,7 +40,7 @@
       {
         "route": "insufflated",
         "units": "µg",
-        "notes": "Strongly discouraged: many severe toxicities reported; absorption is fast and uneven; overdose risk rises sharply. If present in solution (“liquid nasal”), concentrations must be known; avoid powders. citeturn8search1turn11search1",
+        "notes": "Strongly discouraged: many severe toxicities reported; absorption is fast and uneven; overdose risk rises sharply. If present in solution (“liquid nasal”), concentrations must be known; avoid powders.",
         "dose_ranges": {
           "threshold": "50–100 µg",
           "light": "100–300 µg",
@@ -52,7 +52,7 @@
       {
         "route": "oral",
         "units": "µg",
-        "notes": "Unreliable/low bioavailability from gut; purely oral dosing may be inactive or inconsistent at typical sublingual doses; not recommended as a primary route. citeturn3search1",
+        "notes": "Unreliable/low bioavailability from gut; purely oral dosing may be inactive or inconsistent at typical sublingual doses; not recommended as a primary route.",
         "dose_ranges": {
           "threshold": "not recommended",
           "light": "not recommended",
@@ -184,7 +184,7 @@
       }
     }
   ],
-  "addiction_potential": "Low physical dependence documented for serotonergic psychedelics, but some users report compulsive redosing; psychological habituation possible due to short-ish duration and strong visuals. citeturn1search0",
+  "addiction_potential": "Low physical dependence documented for serotonergic psychedelics, but some users report compulsive redosing; psychological habituation possible due to short-ish duration and strong visuals.",
   "interactions": {
     "dangerous": [
       "MAOIs",
@@ -208,7 +208,7 @@
       "Benzodiazepines (sedating; used medically to manage agitation/seizures)"
     ]
   },
-  "notes": "25I‑NBOMe is an ultra‑potent 5‑HT2A agonist active at microgram doses; the difference between a strong and dangerous dose can be small, particularly with nasal use or concentrated liquids. Numerous severe toxicities and fatalities have been reported, especially from misidentified blotters and insufflated powders. Reagent testing is essential when a blotter is sold as “LSD”: Ehrlich/Hofmann positive and a lack of rapid, vivid Marquis color change support lysergamide; NBOMes generally show no Ehrlich/Hofmann reaction and often give pronounced Marquis reactions on paper. Taste is not diagnostic, but a strong bitter/metallic taste with oral numbness is commonly reported for NBOMes; treat as a warning and test. Never eyeball powder; prepare measured solutions (volumetric dosing) and label concentrations clearly to avoid accidental overdoses. Because oral (swallowed) bioavailability is unreliable, sublingual/buccal absorption is the typical route; hold for 15–30 minutes before spitting/swallowing. Significant vasoconstriction (cold/numb extremities, cramps, hypertension) and agitation can occur; avoid stimulants, strenuous activity, overheating, and stay hydrated with small sips. In an emergency (seizure, hyperthermia, severe agitation, chest pain, uncontrolled hypertension), seek immediate medical help; clinicians typically use benzodiazepines and supportive care. NBOMes have frequently been laid on blotters resembling LSD; do not assume any blotter is LSD without testing. Strong cross‑tolerance exists with classical psychedelics (LSD, psilocybin, DOx, 2C‑x), and redosing within days will be less effective yet may increase side‑effects. Legal status: controlled in many jurisdictions (e.g., EU control recommended 2014; US Schedule I since 2016). citeturn8search2turn13search0turn13reddit16turn12search5turn6view0",
+  "notes": "25I‑NBOMe is an ultra‑potent 5‑HT2A agonist active at microgram doses; the difference between a strong and dangerous dose can be small, particularly with nasal use or concentrated liquids. Numerous severe toxicities and fatalities have been reported, especially from misidentified blotters and insufflated powders. Reagent testing is essential when a blotter is sold as “LSD”: Ehrlich/Hofmann positive and a lack of rapid, vivid Marquis color change support lysergamide; NBOMes generally show no Ehrlich/Hofmann reaction and often give pronounced Marquis reactions on paper. Taste is not diagnostic, but a strong bitter/metallic taste with oral numbness is commonly reported for NBOMes; treat as a warning and test. Never eyeball powder; prepare measured solutions (volumetric dosing) and label concentrations clearly to avoid accidental overdoses. Because oral (swallowed) bioavailability is unreliable, sublingual/buccal absorption is the typical route; hold for 15–30 minutes before spitting/swallowing. Significant vasoconstriction (cold/numb extremities, cramps, hypertension) and agitation can occur; avoid stimulants, strenuous activity, overheating, and stay hydrated with small sips. In an emergency (seizure, hyperthermia, severe agitation, chest pain, uncontrolled hypertension), seek immediate medical help; clinicians typically use benzodiazepines and supportive care. NBOMes have frequently been laid on blotters resembling LSD; do not assume any blotter is LSD without testing. Strong cross‑tolerance exists with classical psychedelics (LSD, psilocybin, DOx, 2C‑x), and redosing within days will be less effective yet may increase side‑effects. Legal status: controlled in many jurisdictions (e.g., EU control recommended 2014; US Schedule I since 2016).",
   "subjective_effects": [
     "Strong visual hallucinations (OEVs/CEVs)",
     "Colour enhancement and shifting",
@@ -294,7 +294,7 @@
         "confidence": 50
       }
     ],
-    "notes": "Tolerance builds rapidly after a single dose and partially recovers over 3–7 days; near‑baseline typically returns after 1–2 weeks. Cross‑tolerance with other serotonergic psychedelics is expected. Values are heuristic (community/HR synthesis). Data quality: low/anecdotal. citeturn4search1",
+    "notes": "Tolerance builds rapidly after a single dose and partially recovers over 3–7 days; near‑baseline typically returns after 1–2 weeks. Cross‑tolerance with other serotonergic psychedelics is expected. Values are heuristic (community/HR synthesis). Data quality: low/anecdotal.",
     "data_quality": "anecdotal"
   },
   "half_life": "Unknown in humans; effect duration typically 6–10 h depending on route; pharmacokinetic half-life not well characterized.",
