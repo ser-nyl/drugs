@@ -6718,4 +6718,2315 @@
     "sedative",
     "medical|off-label"
   ]
-}]
+},
+    {
+    "drug_name": "Alprazolam",
+    "alternative_names": [
+      "Xanax",
+      "Tafil",
+      "Ksalol",
+      "Trankimazin",
+      "Cassadan",
+      "Alprazolamum",
+      "Alprax",
+      "Zopax"
+    ],
+    "search_url": "https://go.drugbank.com/drugs/DB00404",
+    "chemical_class": "Benzodiazepine (Triazolobenzodiazepine)",
+    "psychoactive_class": "Depressant (Anxiolytic, Sedative)",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Dose ranges synthesized from label information and user/community harm\u2011reduction reports. Alprazolam\u2019s fast onset increases the risk of redosing and amnestic blackouts; wait at least 90 minutes before considering any additional dose. Approximate oral equivalence: 0.5 mg alprazolam \u2248 10 mg diazepam; individual variability is large\u2014titrate cautiously. Avoid non\u2011oral routes (insufflation, injection) due to binders/fillers and heightened harm; tablets are formulated for oral use only.",
+          "dose_ranges": {
+            "threshold": "0.125 mg",
+            "light": "0.25\u20130.5 mg",
+            "common": "0.5\u20132 mg",
+            "strong": "2\u20134 mg",
+            "heavy": "4+ mg"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "6\u201312 hours",
+      "onset": "15\u201360 minutes (oral)",
+      "peak": "1\u20132 hours",
+      "offset": "4\u20138 hours",
+      "after_effects": "Residual sedation may last up to 24 hours"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Erowid Alprazolam FAQ and user reports",
+          "units": "hours",
+          "total_duration": {
+            "min": 6,
+            "max": 12,
+            "iso": [
+              "PT6H",
+              "PT12H"
+            ],
+            "note": "IR formulation; ER may last longer"
+          },
+          "onset": {
+            "start": 0.25,
+            "end": 1,
+            "iso_start": [
+              "PT15M"
+            ],
+            "iso_end": [
+              "PT60M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 2,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT2H"
+            ]
+          },
+          "offset": {
+            "start": 4,
+            "end": 8,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT8H"
+            ]
+          },
+          "after_effects": {
+            "start": 8,
+            "end": 24,
+            "iso_start": [
+              "PT8H"
+            ],
+            "iso_end": [
+              "PT24H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "High. Alprazolam has a significant risk of dependence and addiction, especially with prolonged or high-dose use. Withdrawal can be severe and potentially dangerous.",
+    "interactions": {
+      "dangerous": [
+        "Opioids",
+        "Alcohol",
+        "Barbiturates",
+        "GHB/GBL"
+      ],
+      "unsafe": [
+        "Other CNS depressants",
+        "Z\u2011drugs (zolpidem, zopiclone, etc.)"
+      ],
+      "caution": [
+        "Antifungals (ketoconazole, itraconazole)",
+        "Macrolide antibiotics (clarithromycin, erythromycin)",
+        "Nefazodone",
+        "Fluvoxamine",
+        "HIV protease inhibitors (e.g., ritonavir)",
+        "Grapefruit/juice (CYP3A4 inhibitor)",
+        "Carbamazepine",
+        "Phenytoin",
+        "Rifampin",
+        "St. John\u2019s wort (CYP3A inducer)",
+        "Antipsychotics",
+        "Antidepressants"
+      ]
+    },
+    "notes": "Do not combine alprazolam with opioids, alcohol, or other sedatives; this combination greatly increases the risk of respiratory depression, coma, and death. A boxed warning applies to the class for opioid co\u2011use. Alprazolam is primarily metabolized by CYP3A; strong CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, clarithromycin, nefazodone, fluvoxamine) and grapefruit can raise levels markedly; strong inducers (e.g., carbamazepine, phenytoin, rifampin, St. John\u2019s wort) can lower levels and precipitate withdrawal or loss of effect. Street \u201cXanax\u201d bars are frequently misrepresented; drug\u2011checking services have repeatedly found potent designer benzodiazepines (e.g., flualprazolam, norflurazepam) or other unexpected actives in tablets sold as alprazolam. Use professional drug checking where available and avoid assuming imprint/appearance equals identity. Do not stop suddenly after repeated dosing; benzodiazepine withdrawal can include seizures and delirium. Tapering should be gradual and medically supervised; flumazenil can precipitate acute withdrawal and seizures in dependent users and is generally avoided outside specific monitored indications. Alprazolam impairs attention, memory, and coordination; avoid driving or hazardous tasks while affected and after high or interacting doses. Avoid non\u2011oral routes: crushing tablets for injection/insufflation introduces fillers that can damage tissue and vasculature, and increases risk without added safety. Rapid onset and short/moderate duration encourage redosing and can accelerate tolerance; spacing use and conservative dosing reduce risk.",
+    "subjective_effects": [
+      "Anxiolysis",
+      "Sedation",
+      "Muscle relaxation",
+      "Euphoria (occasionally)",
+      "Cognitive impairment",
+      "Amnesia",
+      "Motor impairment",
+      "Drowsiness"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "unknown",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 0
+      },
+      "timeline": [],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        },
+        "half_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        },
+        "baseline_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        }
+      },
+      "cross_tolerances": [],
+      "notes": "Functional tolerance to sedative and anxiolytic effects can build quickly with repeated use; cross\u2011tolerance exists across benzodiazepines and many Z\u2011drugs. After cessation, partial tolerance may wane over 1\u20133 weeks, but timelines vary widely by dose, frequency, and individual factors. Data quality is mixed and largely clinical/anecdotal rather than controlled.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "6\u201327 hours (average ~12 hours)",
+    "citations": [
+      {
+        "name": "DrugBank: Alprazolam (CYP3A substrate; interaction overview)",
+        "reference": "https://go.drugbank.com/drugs/DB00404"
+      },
+      {
+        "name": "DrugBank biointeractions: CYP3A substrates for Alprazolam",
+        "reference": "https://go.drugbank.com/drugs/DB00404/biointeractions"
+      },
+      {
+        "name": "Drugs\u2011Forum: Alprazolam pharmacokinetics & CYP3A4 inhibitor/inducer examples",
+        "reference": "https://drugs-forum.com/threads/alprazolam.37195/"
+      },
+      {
+        "name": "TripSit Wiki: Benzodiazepine equivalence (0.5 mg alprazolam \u2248 10 mg diazepam)",
+        "reference": "https://wiki.tripsit.me/wiki/Benzodiazepines"
+      },
+      {
+        "name": "Erowid Alprazolam FAQ (onset/peak/duration; brand names)",
+        "reference": "https://erowid.org/pharms/alprazolam/alprazolam_faq.shtml"
+      },
+      {
+        "name": "EMCDDA (EUDA): Misuse of benzodiazepines among high\u2011risk opioid users (overdose risk with co\u2011use)",
+        "reference": "https://www.euda.europa.eu/system/files/publications/2733/Misuse%20of%20benzos_POD2015.pdf"
+      },
+      {
+        "name": "saferparty.ch: XANAX warnings (flualprazolam/norflurazepam sold as alprazolam)",
+        "reference": "https://www.saferparty.ch/warnungen/xanax-310821"
+      },
+      {
+        "name": "saferparty.ch: Norflurazepam sold as XANAX (2025)",
+        "reference": "https://www.saferparty.ch/warnungen/norflurazepam-verkauft-als-xanax"
+      },
+      {
+        "name": "saferparty.ch: Alprazolam mis\u2011sold (drug\u2011checking warning)",
+        "reference": "https://www.saferparty.ch/warnungen/alprazolam-verkauft-als-mdma"
+      },
+      {
+        "name": "DrugChecking.community (scope of analytes; benzos/opioids in checking programs)",
+        "reference": "https://drugchecking.community/wp-content/uploads/dlm_uploads/2023/04/TDCS_Onsite-drug-checking-technology-purchase-and-partnership_v4.pdf"
+      },
+      {
+        "name": "Erowid/DrugsData: lab drug\u2011checking program overview",
+        "reference": "https://www.erowid.org/projects/drugsdata/drugsdata_update_2023-09.pdf"
+      },
+      {
+        "name": "NCBI StatPearls: Flumazenil (seizure/withdrawal risk in benzodiazepine\u2011dependent patients)",
+        "reference": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470180/"
+      },
+      {
+        "name": "NCBI Bookshelf: Nursing Pharmacology chapter (benzodiazepines; opioid co\u2011use boxed warning; driving caution)",
+        "reference": "https://www.ncbi.nlm.nih.gov/books/NBK594993/"
+      },
+      {
+        "name": "DrugWise: Benzodiazepines (harm reduction; mixing risks; injection risks)",
+        "reference": "https://www.drugwise.org.uk/benzodiazepines/"
+      }
+    ],
+    "categories": [
+      "depressant",
+      "benzodiazepine",
+      "habit-forming",
+      "sedative"
+    ]
+  },
+  {
+    "drug_name": "GBL (Gamma-Butyrolactone)",
+    "alternative_names": [
+      "GBL",
+      "Gamma-butyrolactone",
+      "Butyrolactone",
+      "1,2-Butanolide",
+      "Dihydro-2(3H)-furanone",
+      "G",
+      "Liquid Ecstasy",
+      "Liquid X",
+      "Juice",
+      "Geebs",
+      "Scoop",
+      "Grievous Bodily Harm",
+      "Easy Lay",
+      "Goop"
+    ],
+    "search_url": "https://www.erowid.org/chemicals/gamma_butyrolactone/",
+    "chemical_class": "Lactone (cyclic ester)",
+    "psychoactive_class": "Depressant (prodrug to GHB)",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "ml",
+          "notes": "Ranges are conservative and based on harm-reduction factsheets and user reports. Always measure with a 1\u20133 mL oral syringe readable to 0.1 mL; avoid caps/eyedroppers. Dilute in a non\u2011alcoholic drink to reduce mucosal irritation. First-time users should start at 0.3\u20130.5 mL and wait at least 2 hours before any redose, as effects stack and the dose\u2013response is very steep. Food can blunt/slow onset; many HR orgs advise dosing at least 2 hours after a meal. These figures assume near-neat GBL; unknown dilution requires extra caution and smaller allergy test doses. (Sources: DrugWise; Drugs\u2011Forum GBL wiki; Hi\u2011Ground; TripSit.)",
+          "dose_ranges": {
+            "threshold": "0.3 ml",
+            "light": "0.3 - 0.6 ml",
+            "common": "0.6 - 1.25 ml",
+            "strong": "1.25 - 2.0 ml",
+            "heavy": "2.0+ ml"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "1.5 - 4 hours",
+      "onset": "10 - 30 minutes",
+      "peak": "45 - 90 minutes",
+      "offset": "1 - 2 hours",
+      "after_effects": "2 - 12 hours (grogginess/sedation possible)"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "DrugWise GBL factsheet; Hi-Ground GHB page.",
+          "units": "hours",
+          "total_duration": {
+            "min": 1.5,
+            "max": 4,
+            "iso": [
+              "PT1H30M",
+              "PT4H"
+            ],
+            "note": "Wide variability with food/tolerance."
+          },
+          "onset": {
+            "start": 0.17,
+            "end": 0.5,
+            "iso_start": [
+              "PT10M"
+            ],
+            "iso_end": [
+              "PT30M"
+            ]
+          },
+          "peak": {
+            "start": 0.75,
+            "end": 1.5,
+            "iso_start": [
+              "PT45M"
+            ],
+            "iso_end": [
+              "PT1H30M"
+            ]
+          },
+          "offset": {
+            "start": 1.5,
+            "end": 3,
+            "iso_start": [
+              "PT1H30M"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "after_effects": {
+            "start": 2,
+            "end": 12,
+            "iso_start": [
+              "PT2H"
+            ],
+            "iso_end": [
+              "PT12H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "High with frequent use: tolerance can build in days; physical dependence and medically dangerous withdrawal have been repeatedly documented, especially with around\u2011the\u2011clock redosing patterns.",
+    "interactions": {
+      "dangerous": [
+        "Alcohol",
+        "Benzodiazepines",
+        "Barbiturates",
+        "Opioids",
+        "Ketamine",
+        "Z-drugs (zolpidem, zopiclone)",
+        "Gabapentinoids (pregabalin, gabapentin)"
+      ],
+      "unsafe": [
+        "Other CNS depressants",
+        "First-generation antihistamines (e.g., diphenhydramine, doxylamine)"
+      ],
+      "caution": [
+        "Stimulants (e.g., amphetamine/methamphetamine, MDMA, cocaine) \u2014 masking/synergy and cardiac strain; timing becomes unpredictable",
+        "Some antiretrovirals for HIV \u2014 reduced efficacy reported; avoid concurrent use without medical advice"
+      ]
+    },
+    "notes": "GBL is a prodrug rapidly converted to GHB in vivo; relative to GHB it is more potent by volume and has a faster, sharper onset, which increases overdose risk from small mismeasurements. GBL is a skin/mucosal irritant solvent; always dilute in a non\u2011alcoholic drink before swallowing, avoid contact with eyes/skin, and never inject or insufflate. The dose\u2011response curve is steep: recreational doses lie close to doses causing unrousable sleep and, at higher levels or when mixed with other depressants, life\u2011threatening respiratory depression. Redosing too soon causes stacking: wait at least 2 hours between doses and reduce any redose; dopamine\u2011rebound wakefulness 3\u20135 hours later can create a strong compulsion to redose but increases risk of dependence. Food reduces/slow s absorption; many HR groups suggest dosing at least 2 hours after eating and avoiding further redose until effects fully plateau. Never combine with alcohol, benzodiazepines, opioids, barbiturates, Z\u2011drugs, or other depressants; ketamine with G markedly increases loss of consciousness and breathing problems. If someone becomes unrousable, place them in the recovery position, keep airway clear, monitor breathing, and seek emergency help; do not \u2018wake\u2019 them with stimulants or give more substances. Tolerance can develop in days with frequent use; withdrawal may begin within 1\u20136 hours after the last dose and can escalate to agitation, delirium, tachycardia, and life\u2011threatening complications \u2014 medical supervision is essential for dependent users. Concentration varies by source and bottles; unknown dilution is common \u2014 start low (0.3\u20130.5 mL), measure precisely to 0.1 mL, and label doses/times to avoid mistakes. GHB/GBL may reduce efficacy of some HIV medications; avoid co\u2011use and consult a clinician if on antiretrovirals. As a solvent, GBL can degrade some plastics; prefer glass (or chemically resistant equipment) for storage/measurement, clearly label, add a food\u2011safe dye to avoid accidental ingestion, and keep locked away from children/pets. Do not drive or operate machinery; some HR groups advise waiting at least 24 hours after last dose before driving due to residual impairment and stacking.",
+    "subjective_effects": [
+      "Euphoria",
+      "Relaxation",
+      "Anxiolysis",
+      "Sociability",
+      "Increased libido",
+      "Body warmth",
+      "Sedation",
+      "Dizziness",
+      "Nausea",
+      "Ataxia/loss of motor control",
+      "Memory impairment",
+      "Loss of consciousness at high doses"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "exponential",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 96
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 100,
+          "confidence": 40
+        },
+        {
+          "hours": 48,
+          "tolerance_percentage": 75,
+          "confidence": 30
+        },
+        {
+          "hours": 96,
+          "tolerance_percentage": 50,
+          "confidence": 30
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 25,
+          "confidence": 25
+        },
+        {
+          "hours": 240,
+          "tolerance_percentage": 10,
+          "confidence": 20
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 24,
+          "confidence": 30
+        },
+        "half_tolerance": {
+          "hours": 72,
+          "confidence": 30
+        },
+        "baseline_tolerance": {
+          "hours": 168,
+          "confidence": 25
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "GHB",
+          "ratio": 0.8,
+          "confidence": 50
+        },
+        {
+          "substance": "1,4-Butanediol",
+          "ratio": 0.8,
+          "confidence": 40
+        }
+      ],
+      "notes": "Tolerance builds rapidly with frequent redosing (days). After cessation, many users report substantial reduction within 3\u20137 days and near\u2011baseline in 1\u20132 weeks; heavy, prolonged use may prolong recovery. Cross\u2011tolerance is expected across GHB prodrugs. Data derive largely from HR orgs and user reports; interindividual variability is high.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "GBL is converted to GHB very rapidly (on the order of minutes); GHB elimination half\u2011life is commonly cited around 30\u201360 minutes, but clinical effects can outlast plasma levels due to receptor dynamics and stacking.",
+    "citations": [
+      {
+        "name": "DrugWise GBL Factsheet (2014)",
+        "reference": "https://www.drugwise.org.uk/wp-content/uploads/Factsheet-GBL.pdf"
+      },
+      {
+        "name": "TripSit Wiki: GHB",
+        "reference": "https://wiki.tripsit.me/wiki/GHB"
+      },
+      {
+        "name": "Drugs-Forum Wiki: GBL",
+        "reference": "https://drugs-forum.com/wiki/GBL"
+      },
+      {
+        "name": "DrugBank: gamma-Butyrolactone (DB04699)",
+        "reference": "https://go.drugbank.com/drugs/DB04699"
+      },
+      {
+        "name": "DEA Drugs of Abuse (GHB section) \u2013 hosted by Erowid",
+        "reference": "https://erowid.org/freedom/police/dea/dea_drugsofabuse_2011.pdf"
+      },
+      {
+        "name": "Hi\u2011Ground/DanceWize: GHB (incl. GBL/1,4\u2011B) harm\u2011reduction page",
+        "reference": "https://hi-ground.org/substances/ghb/"
+      },
+      {
+        "name": "Erowid GBL Basics",
+        "reference": "https://www.erowid.org/chemicals/gamma_butyrolactone/gamma_butyrolactone.shtml"
+      }
+    ],
+    "categories": [
+      "depressant",
+      "habit-forming",
+      "research-chemical",
+      "toxic|unspecified"
+    ]
+  },
+  {
+    "drug_name": "Dextromethorphan Hydrobromide (DXM HBr)",
+    "alternative_names": [
+      "DXM",
+      "DM",
+      "Robo",
+      "Robotripping",
+      "CCC / Triple C (Coricidin HBP Cough & Cold; dangerous combo)",
+      "Delsym (DXM polistirex, ER formulation)"
+    ],
+    "search_url": "https://erowid.org/chemicals/dxm/",
+    "chemical_class": "Morphinan (Levorphanol derivative, codeine analog)",
+    "psychoactive_class": "Dissociative",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges reflect DXM hydrobromide immediate-release products only.",
+          "dose_ranges": {
+            "threshold": "~30 mg",
+            "light": "30-100 mg",
+            "common": "100-200 mg",
+            "strong": "200-400 mg",
+            "heavy": "400+ mg"
+          }
+        },
+        {
+          "route": "oral",
+          "units": "mg/kg",
+          "notes": "Plateau model (weight-based) derived from long-standing harm-reduction literature; intended for IR DXM HBr only; NOT for polistirex. Avoid >15 mg/kg due to sharply rising risks.",
+          "dose_ranges": {
+            "threshold": "~0.3-0.7 mg/kg (test dose when CYP2D6 status or interactions unknown)",
+            "light": "1.5-2.5 mg/kg (1st plateau)",
+            "common": "2.5-7.5 mg/kg (2nd plateau)",
+            "strong": "7.5-15 mg/kg (3rd plateau)",
+            "heavy": ">=15 mg/kg (4th plateau; medically risky)"
+          }
+        },
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "DXM polistirex (ER microencapsulated). Community reports and labels indicate longer duration and lower apparent acute potency vs HBr; rough rule-of-thumb: \u2018half as strong, twice as long.\u2019 Titrate cautiously; effects are more prolonged and harder to abort.",
+          "dose_ranges": {
+            "threshold": "~30-60 mg poli",
+            "light": "60-150 mg poli",
+            "common": "150-300 mg poli",
+            "strong": "300-600 mg poli",
+            "heavy": ">=600 mg poli"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "4-8 hours (IR HBr typical); longer with ER poli",
+      "onset": "15-60 minutes (IR HBr)",
+      "peak": "1.5-3 hours (IR HBr)",
+      "offset": "3-6 hours (IR HBr)",
+      "after_effects": "Up to 24 hours (residual effects possible; longer with ER poli)"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Erowid DXM FAQ timelines; community convergence on IR profiles.",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 8,
+            "iso": [
+              "PT4H",
+              "PT8H"
+            ],
+            "note": "Immediate-release HBr"
+          },
+          "onset": {
+            "start": 0.25,
+            "end": 1,
+            "iso_start": [
+              "PT15M"
+            ],
+            "iso_end": [
+              "PT1H"
+            ]
+          },
+          "peak": {
+            "start": 1.5,
+            "end": 3,
+            "iso_start": [
+              "PT1H30M"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 8,
+            "end": 24,
+            "iso_start": [
+              "PT8H"
+            ],
+            "iso_end": [
+              "PT24H"
+            ]
+          }
+        }
+      },
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Delsym/polistirex user reports and HR forums/TripSit: ER formulation has extended release and lower acute potency.",
+          "units": "hours",
+          "total_duration": {
+            "min": 8,
+            "max": 18,
+            "iso": [
+              "PT8H",
+              "PT18H"
+            ],
+            "note": "Polistirex ER; individual variability high"
+          },
+          "onset": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "peak": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "offset": {
+            "start": 8,
+            "end": 12,
+            "iso_start": [
+              "PT8H"
+            ],
+            "iso_end": [
+              "PT12H"
+            ]
+          },
+          "after_effects": {
+            "start": 12,
+            "end": 48,
+            "iso_start": [
+              "PT12H"
+            ],
+            "iso_end": [
+              "PT48H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Moderate. Psychological dependence possible with frequent use; physical dependence uncommon but reported with chronic high-dose use.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs (including irreversible and reversible inhibitors): high risk of serotonin syndrome/hypertensive crisis",
+        "Serotonergic antidepressants (SSRIs/SNRIs/TCAs) at recreational DXM doses: serotonin toxicity risk",
+        "DXM/quinidine (Nuedexta) or DXM/bupropion (Auvelity): potent CYP2D6 inhibition greatly elevates DXM exposure\u2014avoid adding recreational DXM",
+        "MDMA and other serotonin releasers: serotonin syndrome risk",
+        "Tramadol, meperidine/pethidine: combined serotonergic and seizure risk",
+        "Linezolid or other MAOI-like antibiotics: serotonin toxicity risk"
+      ],
+      "unsafe": [
+        "Alcohol and other CNS depressants: additive sedation, emesis/aspiration risk",
+        "First-generation antihistamines (e.g., diphenhydramine, chlorpheniramine, brompheniramine): anticholinergic burden/delirium; some are mild SRIs raising serotonin toxicity risk",
+        "Other dissociatives (e.g., ketamine, PCP, nitrous) at recreational doses: unpredictable synergy and increased impairment"
+      ],
+      "caution": [
+        "Stimulants (amphetamines, strong sympathomimetics): tachycardia/HTN; increased agitation/anxiety",
+        "Cannabis: can markedly amplify dissociation/anxiety in some users",
+        "CYP2D6 inhibitors (e.g., quinidine, bupropion, fluoxetine, paroxetine) and CYP3A4 involvement: can increase DXM levels/prolong effects\u2014start lower and avoid redosing",
+        "Grapefruit/juice (CYP3A4 inhibition): may increase exposure; effect size variable",
+        "Decongestants (pseudoephedrine/phenylephrine): additional cardiovascular strain"
+      ]
+    },
+    "notes": "\u2022 OTC combination products are a major hazard at recreational doses: many syrups/pills include acetaminophen (liver toxicity above therapeutic limits), first-generation antihistamines (anticholinergic delirium, seizure risk), or decongestants (cardiovascular strain). Choose single-ingredient DXM-only products if one insists on use. \u2022 DXM effects and safety vary strongly with CYP2D6 genotype and with inhibitors: poor metabolizers or those on potent 2D6 inhibitors can experience unusually long, dysphoric, or toxic effects from doses others tolerate; always test with a low dose and avoid redosing if metabolism is unknown. \u2022 Serotonin syndrome is the key life-threatening interaction (triad of autonomic instability, neuromuscular hyperactivity, and altered mental status). Avoid combining DXM with MAOIs, SSRIs/SNRIs/TCAs, tramadol, MDMA, 5-HTP, or St. John\u2019s wort. \u2022 Extended-release polistirex (Delsym) is often perceived as \u2018half as strong, twice as long\u2019: onset is slower, peaks are broader, and impairment lasts much longer\u2014harder to manage in uncontrolled settings; plan extra recovery time and avoid redosing. \u2022 Redosing to \u2018stack plateaus\u2019 increases the risk of the so\u2011called Plateau Sigma pattern (days-long delirium/psychosis-like states); most accounts rate it as extremely unpleasant and risky\u2014avoid intentional Sigma pursuit. \u2022 Ataxia and nystagmus (\u2018robo-walk\u2019) increase fall/accident risk; do not drive or do hazardous activities. Use in a safe, calm setting with a sober sitter at higher plateaus. \u2022 Frequent use rapidly builds tolerance and worsens after-effects; spacing uses by multiple weeks reduces cumulative harm. \u2022 Chronic heavy DXM HBr use can add significant bromide load; rare cases of bromism present with neuropsychiatric symptoms and spurious hyperchloremia\u2014seek medical care if prolonged confusion/neurologic symptoms occur. \u2022 DXM can produce false-positive immunoassay urine screens for PCP (and occasionally other classes); confirmatory GC/MS usually resolves this. Carry medication info if testing is expected. \u2022 Avoid products branded Coricidin HBP (\u2018Triple C\u2019) and other multi-ingredient tablets widely linked to adverse events; the non-DXM actives drive much of the toxicity.",
+    "subjective_effects": [
+      "Dissociation",
+      "Euphoria",
+      "Altered time perception",
+      "Visual distortions",
+      "Auditory distortions",
+      "Confusion",
+      "Nausea",
+      "Ataxia (loss of coordination)",
+      "Hallucinations (at higher doses)",
+      "Sedation",
+      "Cognitive impairment",
+      "Itchiness/pruritus (some users)"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "exponential",
+        "build_rate": 2,
+        "decay_rate": 0.2,
+        "half_life": 168
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 0,
+          "confidence": 60
+        },
+        {
+          "hours": 48,
+          "tolerance_percentage": 40,
+          "confidence": 40
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 20,
+          "confidence": 35
+        },
+        {
+          "hours": 504,
+          "tolerance_percentage": 5,
+          "confidence": 25
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 24,
+          "confidence": 40
+        },
+        "half_tolerance": {
+          "hours": 168,
+          "confidence": 35
+        },
+        "baseline_tolerance": {
+          "hours": 504,
+          "confidence": 25
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "Ketamine",
+          "ratio": 0.5,
+          "confidence": 30
+        },
+        {
+          "substance": "PCP/3-MeO-PCP",
+          "ratio": 0.5,
+          "confidence": 20
+        }
+      ],
+      "notes": "Anecdotal and HR-source-based model: frequent (daily/near-daily) use rapidly reduces desired effects and increases dysphoria. Spacing use by \u22652\u20134 weeks typically restores sensitivity for many users.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "DXM: ~3\u201330 hours (wide interindividual range; prolonged with CYP2D6 inhibition/poor metabolizer status). Dextrorphan (DXO): shorter, typically on the order of hours.",
+    "citations": [
+      {
+        "name": "Erowid DXM General Info (plateaus, cautions, formulations)",
+        "reference": "https://erowid.org/chemicals/dxm/faq/dxm_general_info.shtml"
+      },
+      {
+        "name": "DrugBank DB00514 (mechanism, metabolism via CYP2D6/3A4, pharmacogenomics, half-life range)",
+        "reference": "https://go.drugbank.com/drugs/DB00514"
+      },
+      {
+        "name": "TripSit Wiki: DXM Draft (CYP2D6 variability HR note)",
+        "reference": "https://wiki.tripsit.me/wiki/DXM:Draft"
+      },
+      {
+        "name": "Bluelight \u2013 Dangerous Drug Combos / Interaction overviews (MAOI/SSRI/DXM warnings)",
+        "reference": "https://www.bluelight.org/community/threads/dangerous-drug-combos-faq.52825/"
+      },
+      {
+        "name": "TripSit Drug Combinations resources (general combination risk references)",
+        "reference": "https://wiki.tripsit.me/wiki/Drug_combinations"
+      },
+      {
+        "name": "Bluelight community thread: Polistirex vs HBr duration/potency rule-of-thumb (anecdotal)",
+        "reference": "https://www.bluelight.org/community/threads/dxm-polistirex.584967/"
+      },
+      {
+        "name": "Reddit r/dxm threads (poli ~ half-potent/twice as long; community dosing norms)",
+        "reference": "https://www.reddit.com/r/dxm/comments/n0gww3"
+      },
+      {
+        "name": "NCBI Bookshelf: Serum Chloride chapter (bromism features and lab artifact)",
+        "reference": "https://www.ncbi.nlm.nih.gov/books/NBK309/"
+      },
+      {
+        "name": "Drugs-Forum: False-positive urine drug screens include DXM (PCP cross-reactivity)",
+        "reference": "https://drugs-forum.com/threads/commonly-prescribed-medications-and-potential-false-positive-urine-drug-screens.142297/"
+      },
+      {
+        "name": "Reddit r/dxm: Plateau Sigma warning and redosing risks (community consensus; cites Erowid)",
+        "reference": "https://www.reddit.com/r/dxm/comments/bzgl62"
+      }
+    ],
+    "categories": [
+      "dissociative",
+      "habit-forming",
+      "toxic|unspecified"
+    ]
+  },
+  {
+    "drug_name": "4-Methylmethylphenidate (4-Me-TMP)",
+    "alternative_names": [
+      "4-Me-TMP",
+      "4M-TMP",
+      "4'-Methylmethylphenidate",
+      "p-Methyl methylphenidate",
+      "Threo-4-methylmethylphenidate"
+    ],
+    "search_url": "https://drugusersbible.org/content/chemscape/stimulants/4-me-tmp/index.html",
+    "chemical_class": "Phenidate (piperidine-based stimulant)",
+    "psychoactive_class": "Stimulant",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Primary ranges compiled from Drug Users Bible and corroborated by user reports; variability likely due to batch differences and individual sensitivity.",
+          "dose_ranges": {
+            "threshold": "10 mg",
+            "light": "25\u201340 mg",
+            "common": "40\u201360 mg",
+            "strong": "60\u201390 mg",
+            "heavy": "90 mg+"
+          }
+        },
+        {
+          "route": "insufflated",
+          "units": "mg",
+          "notes": "Based on user reports (Bluelight, Reddit). Nasal use increases local harm risk; potency and burn vary by batch.",
+          "dose_ranges": {
+            "threshold": "5 mg",
+            "light": "10\u201320 mg",
+            "common": "20\u201340 mg",
+            "strong": "40\u201350 mg",
+            "heavy": "50 mg+"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "Oral ~4\u20136 hours; Insufflated ~2\u20134 hours (with after-effects possible).",
+      "onset": "Oral ~20\u201345 minutes; Insufflated ~5\u201315 minutes",
+      "peak": "~1\u20133 hours",
+      "offset": "~2\u20133 hours",
+      "after_effects": "Mild stimulation and insomnia can persist several hours, dose- and redose-dependent."
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Drug Users Bible entry summarizing onset ~30 min and ~6 h total; user reports align within 4\u20136 h window.",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 6,
+            "iso": [
+              "PT4H",
+              "PT6H"
+            ],
+            "note": "User-reported range; batches and individual metabolism vary."
+          },
+          "onset": {
+            "start": 0.33,
+            "end": 0.75,
+            "iso_start": [
+              "PT20M"
+            ],
+            "iso_end": [
+              "PT45M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 6,
+            "end": 12,
+            "iso_start": [
+              "PT6H"
+            ],
+            "iso_end": [
+              "PT12H"
+            ]
+          }
+        }
+      },
+      {
+        "method": "insufflated",
+        "duration_curve": {
+          "reference": "Aggregated from Bluelight and Reddit user timelines.",
+          "units": "hours",
+          "total_duration": {
+            "min": 2,
+            "max": 4,
+            "iso": [
+              "PT2H",
+              "PT4H"
+            ],
+            "note": "Nasal ROA tends shorter but punchier; high intra-batch variability reported."
+          },
+          "onset": {
+            "start": 0.08,
+            "end": 0.25,
+            "iso_start": [
+              "PT5M"
+            ],
+            "iso_end": [
+              "PT15M"
+            ]
+          },
+          "peak": {
+            "start": 0.5,
+            "end": 2,
+            "iso_start": [
+              "PT30M"
+            ],
+            "iso_end": [
+              "PT2H"
+            ]
+          },
+          "offset": {
+            "start": 2,
+            "end": 4,
+            "iso_start": [
+              "PT2H"
+            ],
+            "iso_end": [
+              "PT4H"
+            ]
+          },
+          "after_effects": {
+            "start": 4,
+            "end": 10,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT10H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Anecdotally similar to other phenidate stimulants: psychological dependence risk, especially with frequent redosing or high doses; binges reported by some users, while others note low recreational pull.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs (risk of hypertensive crisis/serotonin toxicity with stimulants)",
+        "Other potent stimulants (e.g., amphetamines, cathinones, 4F\u2011MPH): additive cardiovascular/overheating risk"
+      ],
+      "unsafe": [
+        "Tramadol (seizure and serotonin syndrome risk with stimulants)"
+      ],
+      "caution": [
+        "Alcohol (masking effects; dehydration/overheating risk)",
+        "Benzodiazepines (masking/overdose risk when used for comedown)",
+        "Other CNS depressants",
+        "Strong serotonergic agents (uncertain interaction profile; monitor for agitation, hyperthermia)"
+      ]
+    },
+    "notes": "Identity and purity in the current supply are uncertain; drug checking is strongly advised because mislabeling and unexpected contents in powders/crystals are common in unregulated markets. Start with a low single dose, wait at least 2 hours before considering any redose, and avoid stacking multiple redoses to reduce cardiac and insomnia risks. As with methylphenidate analogs, expect dose\u2011dependent increases in heart rate, blood pressure, anxiety, jaw tension, and appetite suppression; those with cardiovascular or anxiety disorders should exercise heightened caution. Intranasal use can damage nasal mucosa over time; divide lines finely, use each nostril sparingly, rinse with saline after sessions, and avoid sharing equipment to reduce infection risk. Avoid injecting; if someone is intent on IV use, sterile technique, allergy testing with a tiny fraction dose, and filtration are essential to reduce acute harms from insoluble binders or contaminants. Combining with MAOIs is hazardous due to hypertensive events; avoid this combination entirely. Tramadol plus stimulants can lower seizure threshold and increase serotonin toxicity risk; avoid co\u2011use and space by many half\u2011lives if medically required. Stimulant comedowns can be mitigated with sleep hygiene, fluids, electrolytes, gentle nutrition, and time; avoid chasing sleep with high\u2011dose alcohol or benzodiazepines due to masking/overdose risk. Because potency appears lower than methylphenidate for many, there is a temptation to escalate doses; use a calibrated milligram scale, consider volumetric solutions for accurate micro\u2011titration, and cap the session length before starting. Insomnia is common after late\u2011day dosing; avoid use within 8\u201312 hours of planned sleep. Cross\u2011tolerance with other phenidates is likely; leave sufficient spacing (several days or longer) between sessions to reduce tolerance and binge\u2011cycle risk. Little formal human pharmacokinetic/toxicology data exists for 4\u2011Me\u2011TMP; absence of data is not evidence of safety\u2014use conservative dosing and vigilant self\u2011monitoring.",
+    "subjective_effects": [
+      "Functional stimulation",
+      "Increased focus",
+      "Mild to moderate euphoria in some (dose\u2011dependent)",
+      "Sociability (variable)",
+      "Appetite suppression",
+      "Dry mouth",
+      "Tachycardia/palpitations (dose\u2011dependent)",
+      "Anxiety/jitteriness at higher doses",
+      "Insomnia (dose- and timing-dependent)",
+      "Redosing tendency"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "unknown",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 0
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 0,
+          "confidence": 30
+        },
+        {
+          "hours": 24,
+          "tolerance_percentage": 30,
+          "confidence": 30
+        },
+        {
+          "hours": 72,
+          "tolerance_percentage": 60,
+          "confidence": 25
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 90,
+          "confidence": 20
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 72,
+          "confidence": 25
+        },
+        "half_tolerance": {
+          "hours": 168,
+          "confidence": 30
+        },
+        "baseline_tolerance": {
+          "hours": 336,
+          "confidence": 20
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "methylphenidate",
+          "ratio": 0.6,
+          "confidence": 25
+        },
+        {
+          "substance": "ethylphenidate",
+          "ratio": 0.5,
+          "confidence": 20
+        },
+        {
+          "substance": "other phenidates",
+          "ratio": 0.4,
+          "confidence": 15
+        }
+      ],
+      "notes": "Patterns extrapolated from user reports with methylphenidate-class stimulants: tolerance can build across several days of repeated use and may require 1\u20132 weeks to substantially reset. Data quality is low and highly individual.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "Estimated 2\u20134 hours (human data sparse; inference from class and reported duration).",
+    "citations": [
+      {
+        "name": "Drug Users Bible: 4\u2011Me\u2011TMP profile (dosage, ~6h duration, qualitative effects)",
+        "reference": "https://drugusersbible.org/content/chemscape/stimulants/4-me-tmp/index.html"
+      },
+      {
+        "name": "Bluelight thread: New stimulant 4\u2011Methylmethylphenidate (ROA/doses, similarity to MPH)",
+        "reference": "https://www.bluelight.org/community/threads/new-stimulant-4-methylmethylphenidate-4-me-tmp.754669/"
+      },
+      {
+        "name": "Bluelight thread: 4M\u2011TMP \u2013 4\u2032\u2011Methyl\u2011Methylphenidate (community dosing notes; 2\u20136h)",
+        "reference": "https://www.bluelight.org/community/threads/4m-tmp-4-methyl-methylphenidate.799252/"
+      },
+      {
+        "name": "Reddit r/researchchemicals: 4\u2011Me\u2011TMP reports (IN onset ~10\u201315 min; low potency; variable rec value)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/hezjff"
+      },
+      {
+        "name": "Reddit r/researchchemicals: 4\u2011me\u2011TMP is super cool (intranasal timeline, euphoria reports)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/1ablane"
+      },
+      {
+        "name": "Reddit r/researchchemicals: 4\u2011me\u2011tmp 2025 discussion (dose variability; batch differences; IN burn)",
+        "reference": "https://www.reddit.com//r/researchchemicals/comments/1lvgtnm"
+      },
+      {
+        "name": "PubChem: Threo\u20114\u2011methylmethylphenidate (compound naming/structure)",
+        "reference": "https://pubchem.ncbi.nlm.nih.gov/compound/Threo-4-methylmethylphenidate"
+      },
+      {
+        "name": "TripSit: Drug Combinations chart and HR hub (general combo risk guidance; avoid MAOI + stimulants)",
+        "reference": "https://tripsit.me/"
+      },
+      {
+        "name": "TripSit Wiki: Tramadol (seizure/serotonin risks; caution with stimulants)",
+        "reference": "https://wiki.tripsit.me/wiki/Tramadol"
+      },
+      {
+        "name": "Drug checking: Saferparty Zurich warnings (frequent mislabeling; test powders/crystals)",
+        "reference": "https://www.saferparty.ch/warnungen/4-cmc-verkauft-als-mdma-070325"
+      },
+      {
+        "name": "Ontario Drug Checking Community: service/resources and limitations (supports need for checking)",
+        "reference": "https://drugchecking.community/resources/"
+      }
+    ],
+    "categories": [
+      "stimulant",
+      "research-chemical",
+      "habit-forming"
+    ]
+  },
+  {
+    "drug_name": "Fentanyl",
+    "alternative_names": [],
+    "search_url": "https://go.drugbank.com/drugs/DB00813",
+    "chemical_class": "Phenylpiperidine opioid",
+    "psychoactive_class": "Opioid analgesic",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "",
+          "dose_ranges": {
+            "threshold": "0.01 mg (10 \u00b5g)",
+            "light": "0.025-0.05 mg (25-50 \u00b5g)",
+            "common": "0.05-0.1 mg (50-100 \u00b5g)",
+            "strong": "0.1-0.2 mg (100-200 \u00b5g)",
+            "heavy": "200+ \u00b5g"
+          }
+        },
+        {
+          "route": "IV",
+          "units": "mg",
+          "notes": "",
+          "dose_ranges": {
+            "threshold": "0.005 mg (5 \u00b5g)",
+            "light": "0.01-0.025 mg (10-25 \u00b5g)",
+            "common": "0.025-0.05 mg (25-50 \u00b5g)",
+            "strong": "0.05-0.1 mg (50-100 \u00b5g)",
+            "heavy": "100+ \u00b5g"
+          }
+        },
+        {
+          "route": "transdermal",
+          "units": "mcg/hr (patch)",
+          "notes": "",
+          "dose_ranges": {
+            "threshold": "12 mcg/hr",
+            "light": "12-25 mcg/hr",
+            "common": "25-50 mcg/hr",
+            "strong": "50-100 mcg/hr",
+            "heavy": "100+ mcg/hr"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "1-4 hours (IV/IM); 24-72 hours (transdermal patch)",
+      "onset": "Seconds to minutes (IV/IM); 6-12 hours (patch)",
+      "peak": "Minutes (IV/IM); 12-24 hours (patch)",
+      "offset": "1-2 hours (IV/IM); 12-24 hours (patch)",
+      "after_effects": "Residual sedation may persist for several hours"
+    },
+    "duration_curves": [],
+    "addiction_potential": "Very high. Fentanyl is highly addictive with a significant risk of dependence, overdose, and death, especially when used outside medical supervision.",
+    "interactions": {
+      "dangerous": [
+        "Other opioids",
+        "Benzodiazepines",
+        "Alcohol",
+        "Barbiturates",
+        "MAOIs"
+      ],
+      "unsafe": [
+        "Gabapentinoids",
+        "Muscle relaxants"
+      ],
+      "caution": [
+        "Antidepressants",
+        "Antipsychotics",
+        "Antihistamines"
+      ]
+    },
+    "notes": "Fentanyl is extremely potent (about 50-100x morphine). Overdose risk is high, especially with illicit or unknown dosages. Illicit fentanyl is a major driver of opioid overdose deaths. Naloxone can reverse fentanyl overdose but may require higher/multiple doses. Use only as prescribed and avoid mixing with other CNS depressants.",
+    "subjective_effects": [
+      "Euphoria",
+      "Pain relief",
+      "Sedation",
+      "Respiratory depression",
+      "Constipation",
+      "Nausea",
+      "Itching",
+      "Drowsiness",
+      "Confusion",
+      "Pinpoint pupils"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "unknown",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 0
+      },
+      "timeline": [],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        },
+        "half_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        },
+        "baseline_tolerance": {
+          "hours": 0,
+          "confidence": 0
+        }
+      },
+      "cross_tolerances": [],
+      "notes": "",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "3-12 hours (varies by route and individual)",
+    "citations": [
+      {
+        "name": "DrugBank: Fentanyl",
+        "reference": "https://go.drugbank.com/drugs/DB00813"
+      },
+      {
+        "name": "DrugWise: Fentanyl DrugWatch",
+        "reference": "https://www.drugwise.org.uk/wp-content/uploads/Fentanyl_DrugWatch.pdf"
+      }
+    ],
+    "categories": [
+      "opioid",
+      "depressant",
+      "habit-forming"
+    ]
+  },
+  {
+    "drug_name": "Cyclazodone",
+    "alternative_names": [
+      "N-cyclopropylpemoline",
+      "N-cyclopropyl-pemoline",
+      "NCP-pemoline"
+    ],
+    "search_url": "https://en.wikipedia.org/wiki/Cyclazodone",
+    "chemical_class": "Oxazolone (related to pemoline and 4-methylaminorex)",
+    "psychoactive_class": "Stimulant",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges are primarily derived from user reports and forum megathreads; there are no peer\u2011reviewed human dosing guidelines. Start with an allergy test (\u22481 mg) and a very low first dose because potency varies by batch and individual sensitivity. Avoid intranasal use due to unknown local tissue effects and higher peak plasma levels; most reports use oral dosing. Wait several hours before considering any redose; delayed or stepwise onsets have been reported anecdotally.",
+          "dose_ranges": {
+            "threshold": "2\u20135 mg",
+            "light": "5\u201315 mg",
+            "common": "10\u201325 mg",
+            "strong": "25\u201335 mg",
+            "heavy": "35 mg+"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "5\u20138 hours",
+      "onset": "20\u201360 minutes (occasionally slower)",
+      "peak": "1\u20133 hours",
+      "offset": "3\u20136 hours",
+      "after_effects": "1\u201312 hours (residual stimulation/insomnia possible)"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Bluelight megathread summaries and multiple user reports; limited formal PK data.",
+          "units": "hours",
+          "total_duration": {
+            "min": 5,
+            "max": 8,
+            "iso": [
+              "PT5H",
+              "PT8H"
+            ],
+            "note": "Functional plateau commonly 3\u20136 h, with long tail in some users."
+          },
+          "onset": {
+            "start": 0.33,
+            "end": 1,
+            "iso_start": [
+              "PT20M"
+            ],
+            "iso_end": [
+              "PT60M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 1,
+            "end": 12,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT12H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Psychological dependence possible, as with other dopaminergic stimulants; compulsive redosing appears less common than with amphetamines but is reported. Long\u2011term dependence liability in humans is not characterized.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs (hypertensive crisis risk)",
+        "Other powerful stimulants (e.g., amphetamines, MDPV)"
+      ],
+      "unsafe": [
+        "Heavy alcohol use (adds hepatotoxic and cardiovascular risk)",
+        "Acetaminophen/paracetamol at high or repeated doses (adds hepatotoxic risk)",
+        "Cocaine or strong adrenergics (excess catecholamines)"
+      ],
+      "caution": [
+        "SSRIs/SNRIs/serotonergic agents (theoretical serotonin\u2011toxicity/overstimulation risk)",
+        "Bupropion (seizure threshold/catecholaminergic load)",
+        "Caffeine (additive stimulation, anxiety, tachycardia)",
+        "CNS depressants (masking of sedation; mixed signals)",
+        "Pre\u2011existing liver disease or concurrent hepatotoxic medications"
+      ]
+    },
+    "notes": "\u2022 Class warning: Pemoline, a close structural relative, was withdrawn in the U.S. for risk of severe liver injury; cyclazodone\u2019s human hepatotoxic risk is unquantified, so repeated or high\u2011dose use should be treated as potentially hepatotoxic. Discontinue and seek medical care if jaundice, right\u2011upper\u2011quadrant pain, dark urine, pale stools, or marked fatigue occur. \u2022 Consider baseline and periodic liver function tests (ALT/AST/bilirubin) if using beyond single occasional trials or more than once weekly; avoid if you have known liver disease. \u2022 Avoid stacking with hepatotoxins (heavy alcohol, high/repeated acetaminophen, anabolic steroids, isoniazid, high\u2011dose vitamin A) during the same week of use. \u2022 Onset can be variable; some users report very delayed or stepwise onsets and sudden intensity several hours later. Because of this, do not redose for several hours after an initial dose. \u2022 Cardiovascular screening and monitoring similar to other stimulants is prudent: avoid if you have uncontrolled hypertension, significant heart disease, or hyperthyroidism; check blood pressure/heart rate during first trials. \u2022 MAOIs are contraindicated with sympathomimetic stimulants due to hypertensive crises\u2014do not combine within 14 days of MAOI use. \u2022 Combining with other stimulants or high caffeine increases risks of anxiety, tachycardia, hypertension, bruxism, and insomnia; spacing such agents is safer. \u2022 Subjective effects are often described as functional stimulation with focus and minimal euphoria; however, some users experience marked anxiety, body load, and dysphoria at doses others find moderate\u2014start low, titrate cautiously. \u2022 Prefer oral administration; insufflation appears in anecdotes but offers no safety advantage and may increase adverse effects. \u2022 Product authenticity/purity is uncertain in gray markets; reagent references for cyclazodone are sparse. Where possible, use professional GC/MS drug checking; otherwise, avoid multi\u2011gram purchases and unknown vendors. \u2022 Tolerance to stimulation builds with frequent use; spacing use by several days reduces tolerance and cumulative strain on the liver and sleep. \u2022 There is no established human half\u2011life; effects are long enough that late\u2011day dosing can impair sleep. \u2022 Do not combine with decongestants (pseudoephedrine/phenylephrine) or other adrenergics due to additive pressor effects. \u2022 Avoid during pregnancy or if trying to conceive; there are no human safety data.",
+    "subjective_effects": [
+      "Increased focus",
+      "Wakefulness",
+      "Motivation",
+      "Mild euphoria (variable)",
+      "Appetite suppression",
+      "Increased energy",
+      "Anxiety (dose\u2011dependent)",
+      "Jaw clenching/bruxism",
+      "Dry mouth",
+      "Tachycardia",
+      "Elevated blood pressure",
+      "Peripheral vasoconstriction (cold extremities)",
+      "Insomnia or reduced sleep quality",
+      "Body load/tension"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "exponential",
+        "build_rate": 2,
+        "decay_rate": 1.5,
+        "half_life": 36
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 0,
+          "confidence": 40
+        },
+        {
+          "hours": 24,
+          "tolerance_percentage": 35,
+          "confidence": 30
+        },
+        {
+          "hours": 72,
+          "tolerance_percentage": 15,
+          "confidence": 25
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 5,
+          "confidence": 20
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 48,
+          "confidence": 25
+        },
+        "half_tolerance": {
+          "hours": 72,
+          "confidence": 25
+        },
+        "baseline_tolerance": {
+          "hours": 168,
+          "confidence": 20
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "Amphetamines",
+          "ratio": 0.5,
+          "confidence": 25
+        },
+        {
+          "substance": "Methylphenidate",
+          "ratio": 0.4,
+          "confidence": 20
+        },
+        {
+          "substance": "Pemoline-class (fenozolone, thozalinone)",
+          "ratio": 0.6,
+          "confidence": 20
+        }
+      ],
+      "notes": "Tolerance patterns are extrapolated from stimulant class experience and user reports; high uncertainty. Spacing use \u226548\u201372 h reduces rapid tolerance build.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "Unknown in humans; functional effects typically 5\u20138 h with a long tail in some users.",
+    "citations": [
+      {
+        "name": "NCBI MedGen: Pemoline withdrawn for life\u2011threatening hepatic failure",
+        "reference": "https://www.ncbi.nlm.nih.gov/medgen/982600"
+      },
+      {
+        "name": "StatPearls: Amphetamine\u2014MAOI contraindication, cardiovascular and serotonergic cautions",
+        "reference": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556103/"
+      },
+      {
+        "name": "Cyclazodone Megathread (Bluelight) \u2013 dosage ranges, limited data warnings",
+        "reference": "https://www.bluelight.org/community/threads/cyclazodone-megathread.876178/"
+      },
+      {
+        "name": "Bluelight: Cyclazodone discussion threads (general info, limited human data)",
+        "reference": "https://www.bluelight.org/community/threads/cyclazodone.498033/"
+      },
+      {
+        "name": "Reddit r/researchchemicals: \u2018Be careful if you try cyclazodone\u2019 (15 mg too stimulating)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/uxc9op"
+      },
+      {
+        "name": "Reddit r/researchchemicals: \u2018So I Was Wrong About Cyclazodones\u2019 (delayed onset report)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/r5cvti"
+      },
+      {
+        "name": "Erowid/DrugsData\u2014lab drug checking project overview",
+        "reference": "https://www.erowid.org/projects/drugsdata/drugsdata_update_2023-09.pdf"
+      },
+      {
+        "name": "Reddit r/ReagentTesting: no reagent reference data for cyclazodone; DrugsData recommended",
+        "reference": "https://www.reddit.com/r/ReagentTesting/comments/12rl378"
+      },
+      {
+        "name": "Erowid experience report (user report context)",
+        "reference": "https://erowid.org/experiences/exp.php?ID=115371"
+      }
+    ],
+    "categories": [
+      "stimulant",
+      "research-chemical",
+      "nootropic",
+      "hepatotoxic",
+      "habit-forming"
+    ]
+  },
+  {
+    "drug_name": "3,4-CFPP (Kleferein)",
+    "alternative_names": [
+      "CFPP",
+      "3,4\u2011CFPP",
+      "1-(3-chloro-4-fluorophenyl)piperazine",
+      "3-chloro-4-fluorophenylpiperazine",
+      "Kleferein",
+      "phenylpiperazine, 3\u2011chloro\u20114\u2011fluoro\u2011"
+    ],
+    "search_url": "https://www.erowid.org/chemicals/piperazines/",
+    "chemical_class": "Phenylpiperazine (halogenated)",
+    "psychoactive_class": "Serotonergic stimulant / empathogen-like (phenylpiperazine)",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges are compiled from scattered user reports and by analogy to related phenylpiperazines; no formal human data exist. Always allergy test (\u22481\u20132 mg) and use a calibrated milligram scale. Expect more nausea and headache than with classical empathogens; redosing tends to increase adverse effects disproportionately. Evidence quality: anecdotal.",
+          "dose_ranges": {
+            "threshold": "20 mg",
+            "light": "20 \u2013 50 mg",
+            "common": "50 \u2013 100 mg",
+            "strong": "100 \u2013 150 mg",
+            "heavy": "150 mg +"
+          }
+        },
+        {
+          "route": "insufflated",
+          "units": "mg",
+          "notes": "Phenylpiperazines can be irritating to mucosa and more likely to cause headaches and nausea when snorted; TFMPP/pFPP reports specifically note sore throat/nasal irritation. Prefer oral route for lower adverse-event rates. Evidence: user reports on piperazines; no CFPP-specific data. Evidence quality: anecdotal.",
+          "dose_ranges": {
+            "threshold": "5 mg",
+            "light": "5 \u2013 15 mg",
+            "common": "15 \u2013 40 mg",
+            "strong": "40 \u2013 70 mg",
+            "heavy": "70 mg +"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "4 \u2013 7 h",
+      "onset": "20 \u2013 60 min oral | 5 \u2013 15 min insufflated",
+      "peak": "1 \u2013 3 h",
+      "offset": "1 \u2013 2 h",
+      "after_effects": "1 \u2013 6 h of residual stimulation, headache or lethargy"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "User reports and analogy with mCPP/pFPP timelines; no formal PK.",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 7,
+            "iso": [
+              "PT4H",
+              "PT7H"
+            ],
+            "note": "High interindividual variability; some users report shorter, dysphoric plateaus typical of phenylpiperazines."
+          },
+          "onset": {
+            "start": 0.33,
+            "end": 1,
+            "iso_start": [
+              "PT20M"
+            ],
+            "iso_end": [
+              "PT1H"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 5,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT5H"
+            ]
+          },
+          "after_effects": {
+            "start": 5,
+            "end": 11,
+            "iso_start": [
+              "PT5H"
+            ],
+            "iso_end": [
+              "PT11H"
+            ]
+          }
+        }
+      },
+      {
+        "method": "insufflated",
+        "duration_curve": {
+          "reference": "User reports; phenylpiperazines absorbed intranasally have faster onset and shorter peak but higher adverse-effect rates.",
+          "units": "hours",
+          "total_duration": {
+            "min": 3.5,
+            "max": 6,
+            "iso": [
+              "PT3H30M",
+              "PT6H"
+            ],
+            "note": "Greater chance of local irritation and headache."
+          },
+          "onset": {
+            "start": 0.08,
+            "end": 0.25,
+            "iso_start": [
+              "PT5M"
+            ],
+            "iso_end": [
+              "PT15M"
+            ]
+          },
+          "peak": {
+            "start": 0.5,
+            "end": 2,
+            "iso_start": [
+              "PT30M"
+            ],
+            "iso_end": [
+              "PT2H"
+            ]
+          },
+          "offset": {
+            "start": 2,
+            "end": 4,
+            "iso_start": [
+              "PT2H"
+            ],
+            "iso_end": [
+              "PT4H"
+            ]
+          },
+          "after_effects": {
+            "start": 4,
+            "end": 10,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT10H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Believed low to moderate. Phenylpiperazines are generally not strongly reinforcing and often produce dysphoria, anxiety, headache and nausea that discourage frequent redosing; however, some users binge seeking relief from an unpleasant plateau. Tolerance to subjective effects can develop within-session (tachyphylaxis), with residual stimulation persisting into the comedown. Evidence quality: anecdotal and by class analogy.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs (including moclobemide, phenelzine) \u2013 serotonin syndrome risk",
+        "Linezolid or methylene blue (MAOI activity) \u2013 serotonin syndrome risk",
+        "SSRIs/SNRIs/TCAs \u2013 additive serotonergic effects; serotonin syndrome risk",
+        "Tramadol, DXM \u2013 serotonergic and seizure risk",
+        "Lithium \u2013 may amplify serotonergic toxicity",
+        "MDMA and other strong releasers \u2013 markedly increased serotonergic load",
+        "Other potent stimulants (amphetamine/cathinones/cocaine) \u2013 cardiovascular strain/hyperthermia risk"
+      ],
+      "unsafe": [
+        "Triptans (5\u2011HT1B/1D agonists) \u2013 serotonin toxicity risk",
+        "Buspirone \u2013 serotonergic toxicity risk",
+        "St. John\u2019s wort/5\u2011HTP/tryptophan \u2013 serotonergic load",
+        "Certain antiretrovirals and CYP inhibitors that elevate levels \u2013 theoretical risk"
+      ],
+      "caution": [
+        "Alcohol \u2013 worsens dehydration/thermoregulation and nausea",
+        "Cannabis \u2013 may potentiate anxiety and dysphoria",
+        "Benzodiazepines \u2013 useful for acute agitation/anxiety but add CNS/respiratory depression; avoid combining to \u2018soften\u2019 come\u2011up unless medically indicated",
+        "Nicotine \u2013 may worsen vasoconstriction and nausea"
+      ]
+    },
+    "notes": "Identity and data scarcity: CFPP is an obscure halogenated phenylpiperazine with essentially no published human pharmacology; most available information comes from class\u2011level summaries and older community reports about phenylpiperazines (mCPP, TFMPP, pFPP). Mislabeling/adulteration with piperazines has historically been common in \u2018ecstasy\u2019 markets; laboratory drug checking is strongly advised over reagent\u2011only testing. Reports from mCPP/TFMPP users consistently mention dysphoria, anxiety/panic, nausea, headaches/migraines, thermoregulation changes and a multi\u2011day \u2018hangover\u2019; CFPP likely shares a similar adverse\u2011effect profile by structural analogy. Serotonergic toxicity can occur when combined with MAOIs, SSRIs/SNRIs, tramadol, DXM, triptans, lithium or other serotonergics\u2014avoid these combinations and seek urgent care if symptoms of serotonin syndrome (agitation, hyperreflexia/clonus, sweating, fever) appear. Phenylpiperazines tend to be more \u2018body\u2011loady\u2019 than euphoric; start with an allergy test (\u22481\u20132 mg), use oral dosing rather than insufflation to reduce local irritation and headache, and avoid redosing\u2014users report that redoses often deepen adverse effects without improving mood. Cardiovascular effects (tachycardia, hypertension) are part of this class; keep cool, take measured breaks from dancing/exertion, sip fluids modestly, and avoid both over\u2011 and under\u2011hydration. Because CFPP\u2019s metabolism and half\u2011life are unknown, allow the full duration plus at least several hours before considering any additional substances. If severe anxiety, tremor or overheating develops, prioritize cooling, rest and consider a benzodiazepine in standard therapeutic doses if not contraindicated; seek medical help for high fever, confusion, chest pain, or persistent vomiting.",
+    "subjective_effects": [
+      "Mild to moderate physical stimulation",
+      "Restlessness / insomnia",
+      "Jaw clenching & bruxism",
+      "Pupil dilation",
+      "Sweating & thermoregulation changes (hot\u2013cold waves)",
+      "Nausea and gastric discomfort",
+      "Headache / migraine-like pressure",
+      "Anxiety, dysphoria, panic in susceptible users",
+      "Occasional mild mood\u2011lift or fleeting empathy (in some users)",
+      "Subtle visual patterning or mild distortions at high doses (rare)"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "unknown",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 0
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 0,
+          "confidence": 40
+        },
+        {
+          "hours": 24,
+          "tolerance_percentage": 50,
+          "confidence": 30
+        },
+        {
+          "hours": 120,
+          "tolerance_percentage": 25,
+          "confidence": 20
+        },
+        {
+          "hours": 336,
+          "tolerance_percentage": 0,
+          "confidence": 20
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 12,
+          "confidence": 20
+        },
+        "half_tolerance": {
+          "hours": 120,
+          "confidence": 20
+        },
+        "baseline_tolerance": {
+          "hours": 336,
+          "confidence": 20
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "mCPP",
+          "ratio": 0.5,
+          "confidence": 20
+        },
+        {
+          "substance": "TFMPP",
+          "ratio": 0.5,
+          "confidence": 20
+        },
+        {
+          "substance": "Other phenylpiperazines (pFPP, MeOPP)",
+          "ratio": 0.5,
+          "confidence": 15
+        },
+        {
+          "substance": "Serotonergic empathogens (e.g., MDMA)",
+          "ratio": 0.2,
+          "confidence": 10
+        }
+      ],
+      "notes": "Based on class analogy and user reports for phenylpiperazines: within\u2011session tachyphylaxis; partial tolerance over 1\u20133 days; near\u2011baseline after ~2 weeks abstinence. Data quality: anecdotal.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "Unknown in humans; by analogy to mCPP/pFPP likely several hours (\u22484\u20136 h), but this is unverified.",
+    "citations": [
+      {
+        "name": "Erowid Piperazines Vault (class overview & experiences)",
+        "reference": "https://www.erowid.org/chemicals/piperazines/"
+      },
+      {
+        "name": "Erowid: UNODC Global SMART reports (piperazine market/adverse effects)",
+        "reference": "https://www.erowid.org/psychoactives/research_chems/research_chems_UNODC_2013_report.pdf"
+      },
+      {
+        "name": "Bluelight \u2013 Dangerous Drug Combos (serotonin syndrome section)",
+        "reference": "https://www.bluelight.org/community/threads/%E2%AB%B8dangerous-drug-combos%E2%AB%B7.795784/"
+      },
+      {
+        "name": "Drugs\u2011Forum Wiki: Piperazines (history, adulteration context)",
+        "reference": "https://drugs-forum.com/wiki/Piperazines"
+      },
+      {
+        "name": "Drugs\u2011Forum \u2013 TFMPP basics (effects, nasal irritation, hangover)",
+        "reference": "https://drugs-forum.com/threads/tfmpp-piperazine-basics.13199/"
+      },
+      {
+        "name": "Bluelight \u2013 Piperazines\u2019 SAR thread (mCPP/pFPP receptor tendencies)",
+        "reference": "https://www.bluelight.org/community/threads/piperazines-sar.382193/"
+      },
+      {
+        "name": "Erowid Experiences Index \u2013 Piperazines (numerous negative mCPP/TFMPP reports)",
+        "reference": "https://www.erowid.org/experiences/subs/exp_Piperazines.shtml"
+      },
+      {
+        "name": "Erowid/DrugsData \u2013 Laboratory drug checking info",
+        "reference": "https://www.erowid.org/projects/drugsdata/drugsdata_update_2023-09.pdf"
+      },
+      {
+        "name": "Reddit r/researchchemicals \u2013 \u201cSo about kleferein\u2026\u201d (community CFPP discussion)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/c1fl8d/so_about_kleferein/"
+      },
+      {
+        "name": "Drugs\u2011Forum \u2013 \u201c3\u2011chloro\u20114\u2011fluorophenylpiperazine (CFPP) information\u201d",
+        "reference": "https://drugs-forum.com/threads/3-chloro-4-fluorophenylpiperazine-cfpp.267710/"
+      }
+    ],
+    "categories": [
+      "research-chemical",
+      "stimulant",
+      "empathogen"
+    ]
+  },
+  {
+    "drug_name": "Pyrazolam",
+    "alternative_names": [
+      "Pirazolam",
+      "8-bromo-1-methyl-6-(pyridin-2-yl)-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine",
+      "IUPAC: 12-bromo-3-methyl-9-(pyridin-2-yl)-2,4,5,8-tetraazatricyclo[8.4.0.0^{2,6}]tetradeca-1(10),3,5,8,11,13-hexaene"
+    ],
+    "search_url": "https://tripsit.me/factsheets/pyrazolam",
+    "chemical_class": "triazolobenzodiazepine (benzodiazepine)",
+    "psychoactive_class": "Depressant (benzodiazepine anxiolytic)",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges below are aggregated from community harm-reduction resources and user reports rather than formal labeling. Pellet and liquid strengths vary widely in the gray market; mislabeling (including substitution with other benzodiazepines like norflurazepam) has been repeatedly reported\u2014use drug-checking and volumetric dosing where possible.",
+          "dose_ranges": {
+            "threshold": "0.25 mg",
+            "light": "0.5 - 1 mg",
+            "common": "1 - 2 mg",
+            "strong": "2 - 3 mg",
+            "heavy": "3+ mg"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "4 - 8 hours (residual sedation/anxiolysis may persist)",
+      "onset": "20 - 60 minutes (drawn-out come-up reported)",
+      "peak": "1 - 3 hours",
+      "offset": "4 - 6 hours",
+      "after_effects": "Minimal to mild next-day grogginess in some users"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Erowid\u2019s brief on pyrazolam notes a drawn-out come-up and lower recreational value; TripSit class lists pyrazolam as a short-acting anxiolytic. These are community-sourced, not clinical PK. \ue200cite\ue202turn10search3\ue202turn2search1\ue201",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 8,
+            "iso": [
+              "PT4H",
+              "PT8H"
+            ],
+            "note": "Upper end reflects residual calming/sedation in some users."
+          },
+          "onset": {
+            "start": 0.33,
+            "end": 1,
+            "iso_start": [
+              "PT20M"
+            ],
+            "iso_end": [
+              "PT60M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 4,
+            "end": 6,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 0,
+            "end": 12,
+            "iso_start": [
+              "PT0H"
+            ],
+            "iso_end": [
+              "PT12H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Comparable to other benzodiazepines: risk of psychological and physical dependence increases with frequent or high-dose use. New/illicit benzodiazepines are specifically highlighted by EUDA/EMCDDA as a public-health concern (availability, heavy use, and severe poisonings when combined with other depressants).",
+    "interactions": {
+      "dangerous": [
+        "Alcohol (synergistic CNS/respiratory depression)",
+        "Opioids (including heroin/fentanyl and Rx opioids)",
+        "GHB/GBL",
+        "Barbiturates",
+        "Z-drugs (e.g., zolpidem, zopiclone)",
+        "Tramadol (adds seizure and respiratory risk)",
+        "Other benzodiazepines (stacking increases blackout/overdose risk)"
+      ],
+      "unsafe": [
+        "Baclofen",
+        "Carisoprodol",
+        "Gabapentinoids (gabapentin, pregabalin)",
+        "First-generation antihistamines (e.g., diphenhydramine, promethazine)"
+      ],
+      "caution": [
+        "Muscle relaxants (e.g., tizanidine)",
+        "Antipsychotics (additive sedation)",
+        "Cannabis (may increase disinhibition/sedation)"
+      ]
+    },
+    "notes": "\u2022 Potency is in the low milligram range, increasing the risk of accidental over- or redosing if pellets/liquids are mislabelled or non-uniform; multiple user reports since 2024\u20132025 describe \u201cpyrazolam\u201d products that appeared to be norflurazepam or otherwise inconsistent\u2014use drug checking where possible and treat new batches as unknown potency. \ue200cite\ue202turn6reddit17\ue202turn9reddit14\ue201 \u2022 The come-up can be slower and more gradual than many expect; some users don\u2019t feel full effects until ~2\u20133 hours. Avoid redosing early; wait at least 2\u20133 hours before considering more to reduce blackout risk. \ue200cite\ue202turn10search3\ue201 \u2022 Like other benzodiazepines, pyrazolam can cause anterograde amnesia, impaired coordination, and \u201cfunctionality illusions\u201d (feeling calm while motor skills and judgment are impaired). Do not drive or perform safety-critical tasks. \ue200cite\ue202turn10search3\ue201 \u2022 Combining with other depressants (alcohol, opioids, GHB/GBL, barbiturates, Z\u2011drugs) greatly increases overdose risk via additive respiratory depression; harm-reduction groups flag benzo\u2013opioid combos as a key driver of poisonings. \ue200cite\ue202turn15search0\ue202turn11search6\ue201 \u2022 Dependence and difficult withdrawal (including seizures) are documented across the new/illicit benzodiazepines category; avoid frequent use and do not stop abruptly after extended use\u2014seek medical guidance for tapering. \ue200cite\ue202turn16search6\ue201 \u2022 Given the variability and mislabeling in this market, volumetric dosing (dissolving a known quantity into a measured volume and dosing by volume) can reduce dose error; TripSit provides a calculator and guidance. \ue200cite\ue202turn15search2\ue201 \u2022 Some community reports claim pyrazolam dissolves readily in water; others note pH-dependent solubility similar to midazolam. Treat solubility claims cautiously; if making solutions, use appropriate solvents/containers and label clearly to prevent accidental ingestion. \ue200cite\ue202turn9reddit13\ue202turn18search0\ue201 \u2022 Designer/illicit benzodiazepines are sometimes found in opioid samples (\u201cbenzo-dope\u201d); if using opioids, assume possible benzo co-exposure and carry naloxone\u2014but note naloxone does not reverse benzodiazepines. \ue200cite\ue202turn11search6\ue201 \u2022 Legal status varies and can change quickly. In the UK and many EU countries, new benzodiazepines including pyrazolam have been targeted by controls; possession/supply may be illegal. \ue200cite\ue202turn16search0\ue201 \u2022 Amnestic effects increase steeply with dose and with combinations; users report blackouts at higher doses or with stacked redoses\u2014consider a trusted sober sitter if experimenting. \ue200cite\ue202turn10reddit14\ue202turn10reddit15\ue201",
+    "subjective_effects": [
+      "Anxiolysis (reduced anxiety)",
+      "Calmness",
+      "Subtle euphoria (in some)",
+      "Mild muscle relaxation",
+      "Sedation (variable by dose and individual)",
+      "Anterograde amnesia at higher doses",
+      "Impaired coordination (dose-dependent)",
+      "Reduced social anxiety"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "unknown",
+        "build_rate": 0,
+        "decay_rate": 0,
+        "half_life": 0
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 0,
+          "confidence": 30
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 50,
+          "confidence": 25
+        },
+        {
+          "hours": 336,
+          "tolerance_percentage": 25,
+          "confidence": 25
+        },
+        {
+          "hours": 504,
+          "tolerance_percentage": 0,
+          "confidence": 20
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 72,
+          "confidence": 30
+        },
+        "half_tolerance": {
+          "hours": 168,
+          "confidence": 25
+        },
+        "baseline_tolerance": {
+          "hours": 504,
+          "confidence": 25
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "Other benzodiazepines",
+          "ratio": 0.8,
+          "confidence": 30
+        },
+        {
+          "substance": "Z-drugs (e.g., zolpidem)",
+          "ratio": 0.4,
+          "confidence": 15
+        }
+      ],
+      "notes": "As with other benzodiazepines, tolerance to sedative/hypnotic effects can build within days of repeated dosing; anxiolytic tolerance may develop more gradually. Rough recovery to baseline often requires several weeks off. Estimates here are conservative and based on general benzo patterns and user reports, not controlled studies.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "~17 hours (reports vary; clinical PK data are scarce)",
+    "citations": [
+      {
+        "name": "DrugBank: Pyrazolam (identifiers, synonyms)",
+        "reference": "https://go.drugbank.com/drugs/DB14718"
+      },
+      {
+        "name": "TripSit Wiki: Benzodiazepines (equivalence/short-acting class listing)",
+        "reference": "https://wiki.tripsit.me/wiki/Benzodiazepines"
+      },
+      {
+        "name": "TripSit: Drug combinations (benzos with other depressants flagged dangerous)",
+        "reference": "https://wiki.tripsit.me/wiki/Drug_combinations"
+      },
+      {
+        "name": "TripSit: Resources incl. volumetric converter",
+        "reference": "https://tripsit.me/"
+      },
+      {
+        "name": "Erowid: Novel Drug Briefs (Pyrazolam profile; drawn-out come-up, amnesia/blackout traits)",
+        "reference": "https://erowid.org/chemicals/chemicals_article1.shtml"
+      },
+      {
+        "name": "Erowid References DB: Abouchedid et al., 2018 (availability/misuse motivations of pyrazolam etc.)",
+        "reference": "https://www.erowid.org/references/refs_view.php?ID=9294"
+      },
+      {
+        "name": "EUDA/EMCDDA: New benzodiazepines in Europe \u2013 a review (public health risks)",
+        "reference": "https://www.euda.europa.eu/publications/rapid-communications/new-benzodiazepines-europe-review_en"
+      },
+      {
+        "name": "EUDA/EMCDDA news: Designer benzodiazepines risks & availability",
+        "reference": "https://www.euda.europa.eu/news/2021/6/report-highlights-public-health-risks-and-increasing-availability-designer-benzodiazepines-europe_en"
+      },
+      {
+        "name": "Drug checking data context: \u2018benzo-dope\u2019 observations (Toronto\u2019s Drug Checking Service)",
+        "reference": "https://drugchecking.community/report/feb-22-mar-7-2025/"
+      }
+    ],
+    "categories": [
+      "benzodiazepine",
+      "depressant",
+      "sedative",
+      "habit-forming"
+    ]
+  },
+  {
+    "drug_name": "4-AcO-DMT (O-Acetylpsilocin)",
+    "alternative_names": [
+      "4-acetoxy-N,N-dimethyltryptamine",
+      "4-AcO-DMT",
+      "O-acetylpsilocin",
+      "psilacetin",
+      "4-AcO-DMT fumarate",
+      "4-AcO-DMT HCl"
+    ],
+    "search_url": "https://www.erowid.org/chemicals/4_acetoxy_dmt/4_acetoxy_dmt.shtml",
+    "chemical_class": "Tryptamine",
+    "psychoactive_class": "Psychedelic",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges compiled from community and harm-reduction sources; variability stems from individual sensitivity and possible degradation or differing salts. Always use a 0.001 g scale or volumetric dosing; start low if switching source or batch. Insufflation is typically more potent per mg but harsher and more anxiety\u2011prone; oral is generally recommended for predictability. Evidence that 4\u2011AcO\u2011DMT is likely a prodrug to psilocin with effects similar to psilocybin/psilocin. User reports describe rare very delayed onsets (up to ~2 h), so avoid redosing early. Sources: Erowid Basics; Bluelight user reports.",
+          "dose_ranges": {
+            "threshold": "2.5-5 mg",
+            "light": "5-10 mg",
+            "common": "10-25 mg",
+            "strong": "25-40 mg",
+            "heavy": "40-50+ mg"
+          }
+        },
+        {
+          "route": "insufflated",
+          "units": "mg",
+          "notes": "Appears more potent and faster than oral with increased nasal irritation and sharper onset; some users report unpleasant burn and greater anxiety. Due to causticity and unpredictability, many harm\u2011reduction groups discourage this ROA versus oral. Sources: Erowid Basics; Bluelight user reports.",
+          "dose_ranges": {
+            "threshold": "2.5-5 mg",
+            "light": "5-10 mg",
+            "common": "10-20 mg",
+            "strong": "20-35 mg",
+            "heavy": "35-45+ mg"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "4-8 hours",
+      "onset": "20-45 minutes (oral); rare reports up to ~2 hours",
+      "peak": "2-4 hours",
+      "offset": "1-3 hours",
+      "after_effects": "1-4 hours"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Erowid Basics and user reports",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 8,
+            "iso": [
+              "PT4H",
+              "PT8H"
+            ],
+            "note": "Moderate doses last ~4\u20136 h; strong doses can push to 8\u201310 h per reports."
+          },
+          "onset": {
+            "start": 0.33,
+            "end": 0.75,
+            "iso_start": [
+              "PT20M"
+            ],
+            "iso_end": [
+              "PT45M"
+            ]
+          },
+          "peak": {
+            "start": 2,
+            "end": 4,
+            "iso_start": [
+              "PT2H"
+            ],
+            "iso_end": [
+              "PT4H"
+            ]
+          },
+          "offset": {
+            "start": 4,
+            "end": 7,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT7H"
+            ]
+          },
+          "after_effects": {
+            "start": 6,
+            "end": 10,
+            "iso_start": [
+              "PT6H"
+            ],
+            "iso_end": [
+              "PT10H"
+            ]
+          }
+        }
+      },
+      {
+        "method": "insufflated",
+        "duration_curve": {
+          "reference": "Erowid Basics; community reports",
+          "units": "hours",
+          "total_duration": {
+            "min": 3.5,
+            "max": 7,
+            "iso": [
+              "PT3H30M",
+              "PT7H"
+            ],
+            "note": "Faster come\u2011up, slightly shorter tail on average."
+          },
+          "onset": {
+            "start": 0.08,
+            "end": 0.25,
+            "iso_start": [
+              "PT5M"
+            ],
+            "iso_end": [
+              "PT15M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 5,
+            "end": 8,
+            "iso_start": [
+              "PT5H"
+            ],
+            "iso_end": [
+              "PT8H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Low; not considered physically addictive. Psychological habituation is possible with frequent use. Tolerance builds quickly and cross\u2011tolerance exists with other serotonergic psychedelics.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs (e.g., phenelzine, tranylcypromine; harmala alkaloids); markedly increased and prolonged effects; serotonin toxicity risk",
+        "Lithium (reports of seizures/complications with serotonergic psychedelics; avoid)",
+        "Tramadol (seizure and serotonin syndrome risk)",
+        "Dextromethorphan (serotonergic and dissociative synergy; serotonin syndrome risk)"
+      ],
+      "unsafe": [
+        "Other potent serotonergic psychedelics at high or overlapping peaks (overstimulation, confusion, panic)",
+        "Linezolid or other RIMA/MAOI\u2011like agents (serotonin risk)"
+      ],
+      "caution": [
+        "SSRIs/SNRIs/TCAs/bupropion (effects often blunted or unpredictable; bupropion lowers seizure threshold)",
+        "Cannabis (can strongly potentiate visuals/body load/anxiety)",
+        "Alcohol (increases nausea, dehydration, syncope risk; worsens judgment)",
+        "Stimulants (heightened anxiety, tachycardia, BP elevation)",
+        "Benzodiazepines (can blunt effects; reserved for severe anxiety)"
+      ]
+    },
+    "notes": "4\u2011AcO\u2011DMT is a semisynthetic 4\u2011substituted tryptamine likely acting as a prodrug of psilocin; effects and durations are broadly similar to psilocybin/psilocin, though some users perceive a \u201cwarmer/more euphoric\u201d tone. Insufflation produces a faster, sharper onset and is commonly described as painful/irritating; oral use is easier to titrate. Product stability varies: exposure to heat, moisture, and oxygen can darken material over time (often towards tan/brown) and partial hydrolysis to psilocin may occur; potency may drift and batches may co\u2011contain psilocin\u2014test and start low with new supplies. Salt form differences (fumarate vs HCl) change mass\u2011by\u2011mass potency only modestly; Erowid\u2019s chemistry notes suggest the typical fumarate is diprotic, making the practical potency gap just a few percent rather than ~25% as sometimes claimed. Community drug\u2011checking data and reports have found some samples containing both 4\u2011AcO\u2011DMT and psilocin, consistent with hydrolysis or co\u2011formulation. Store airtight, dry, and cold (freezer, desiccant, light\u2011protected) to slow degradation; avoid long\u2011term aqueous solutions. Test with Ehrlich\u2019s (indole positive but non\u2011specific); reagent testing cannot reliably confirm identity\u2014lab analysis is required. Avoid use if you or close family have psychotic or bipolar spectrum disorders; psychedelics can precipitate mania/psychosis in susceptible individuals. Use a sitter, sober environment, and avoid driving for the rest of the day. Because delayed onsets (up to ~2 h) are occasionally reported, do not redose early.",
+    "subjective_effects": [
+      "Visual distortions",
+      "Enhanced colors",
+      "Euphoria",
+      "Emotional release",
+      "Altered thought patterns",
+      "Time distortion",
+      "Synesthesia",
+      "Mild body load",
+      "Tracers",
+      "Spiritual or mystical experiences"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "exponential",
+        "build_rate": 0.0,
+        "decay_rate": 0.0,
+        "half_life": 120.0
+      },
+      "timeline": [
+        {
+          "hours": 24,
+          "tolerance_percentage": 60,
+          "confidence": 40
+        },
+        {
+          "hours": 72,
+          "tolerance_percentage": 40,
+          "confidence": 40
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 15,
+          "confidence": 35
+        },
+        {
+          "hours": 336,
+          "tolerance_percentage": 0,
+          "confidence": 30
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 24,
+          "confidence": 40
+        },
+        "half_tolerance": {
+          "hours": 120,
+          "confidence": 35
+        },
+        "baseline_tolerance": {
+          "hours": 336,
+          "confidence": 30
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "Psilocybin/Psilocin",
+          "ratio": 0.8,
+          "confidence": 50
+        },
+        {
+          "substance": "LSD & other serotonergic psychedelics",
+          "ratio": 0.6,
+          "confidence": 40
+        }
+      ],
+      "notes": "Empirical rules of thumb from community data: substantial tolerance is present for several days after a dose; near\u2011baseline returns in roughly 10\u201314 days. Repeated redosing within a session provides diminishing returns and more side\u2011effects. Data quality is anecdotal; no controlled human tolerance studies for 4\u2011AcO\u2011DMT specifically.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "Not well established for 4\u2011AcO\u2011DMT; psilocin (the likely active) is commonly reported to have an elimination half\u2011life around ~2\u20133 hours in humans.",
+    "citations": [
+      {
+        "name": "Erowid 4\u2011Acetoxy\u2011DMT Vault (main)",
+        "reference": "https://www.erowid.org/chemicals/4_acetoxy_dmt/4_acetoxy_dmt.shtml"
+      },
+      {
+        "name": "Erowid 4\u2011Acetoxy\u2011DMT Basics",
+        "reference": "https://www.erowid.org/chemicals/4_acetoxy_dmt/4_acetoxy_dmt_basics.shtml"
+      },
+      {
+        "name": "Erowid Crew Blog \u2013 4\u2011AcO\u2011DMT salts & potency notes",
+        "reference": "https://www.erowid.org/columns/crew/category/chemistry/"
+      },
+      {
+        "name": "Bluelight thread \u2013 4\u2011AcO\u2011DMT dosage/onset and ROA experiences",
+        "reference": "https://www.bluelight.org/community/threads/4-aco-dmt-dosage-question%E2%80%A6.939025/"
+      },
+      {
+        "name": "Bluelight \u20184\u2011AcO\u2011DMT thoughts\u2019 (ROA potency; SSRI discussion)",
+        "reference": "https://www.bluelight.org/community/threads/4-aco-dmt-thoughts.834938/"
+      },
+      {
+        "name": "Erowid Experience Vaults \u2013 4\u2011AcO\u2011DMT combinations index",
+        "reference": "https://erowid.org/experiences/subs/exp_4AcODMT_Combinations.shtml"
+      },
+      {
+        "name": "Erowid Experiences \u2013 reports including LSD + Lithium issues (for serotonergic psychedelics)",
+        "reference": "https://erowid.org/experiences/exp.cgi?Cellar=0&Max=100&OldSort=SA_RD_PDD_TA_AA&ShowViews=0&Start=24100"
+      },
+      {
+        "name": "TripSit Drug Combinations (general guidance incl. serotonergic + tramadol/DXM caution)",
+        "reference": "https://wiki.tripsit.me/wiki/Drug_combinations"
+      },
+      {
+        "name": "Drug Users Bible \u2013 4\u2011AcO\u2011DMT page (dose references)",
+        "reference": "https://drugusersbible.org/content/chemscape/psychedelics/4-aco-dmt/index.html"
+      },
+      {
+        "name": "Reddit r/4acodmt \u2013 discussion of DrugsData tests showing 4\u2011AcO\u2011DMT with psilocin",
+        "reference": "https://www.reddit.com/r/4acodmt/comments/hu631h"
+      },
+      {
+        "name": "Bluelight \u2013 \u2018Has anyone seen any real 4\u2011AcO\u2011DMT?\u2019 (stability/batch variability discussion)",
+        "reference": "https://www.bluelight.org/community/threads/has-anyone-seen-any-real-4-aco-dmt.942968/"
+      },
+      {
+        "name": "Bluelight \u2013 Biology/Pharmacology 101 (psilocin half\u2011life note)",
+        "reference": "https://www.bluelight.org/community/threads/%E2%AD%90%EF%B8%8F-biology-pharmacology-and-drugs-101-%E2%AD%90%EF%B8%8F.872859/"
+      }
+    ],
+    "categories": [
+      "psychedelic",
+      "research-chemical",
+      "hallucinogen"
+    ]
+  }
+]
