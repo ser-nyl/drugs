@@ -38506,5 +38506,320 @@
       "toxic|unspecified",
       "irreversible-damage"
     ]
+  },
+  {
+    "drug_name": "5-APB",
+    "alternative_names": [
+      "5-(2-aminopropyl)benzofuran",
+      "5\u2011APB HCl",
+      "5\u2011APB succinate",
+      "Benzo Fury (brand; may also refer to 6\u2011APB)",
+      "5\u2011APB freebase",
+      "5\u2011APB (benzofuran-5-yl)propan-2-amine"
+    ],
+    "search_url": "https://isomerdesign.com/pihkal/explore/2359",
+    "chemical_class": "Benzofuran (substituted benzofuran)",
+    "psychoactive_class": "Entactogen, Stimulant, Psychedelic",
+    "dosages": {
+      "routes_of_administration": [
+        {
+          "route": "oral",
+          "units": "mg",
+          "notes": "Ranges align with community harm-reduction summaries and user reports; potency by weight varies with salt (HCl > succinate) and batch purity. Start lower with unknown salt or unverified batches; some users find modern HCl batches notably potent. Data are largely anecdotal and should be verified by reagent/lab testing before use.",
+          "dose_ranges": {
+            "threshold": "20\u201330 mg",
+            "light": "40\u201370 mg",
+            "common": "60\u2013110 mg",
+            "strong": "110\u2013140 mg",
+            "heavy": "140+ mg"
+          }
+        },
+        {
+          "route": "insufflated",
+          "units": "mg",
+          "notes": "Faster onset, shorter total duration, and harsher local irritation are commonly reported. Due to increased intensity and nasal irritation, begin at the low end if choosing this ROA. Data are from user reports/anecdotes.",
+          "dose_ranges": {
+            "threshold": "5\u201310 mg",
+            "light": "10\u201330 mg",
+            "common": "30\u201360 mg",
+            "strong": "60\u201390 mg",
+            "heavy": "90+ mg"
+          }
+        }
+      ]
+    },
+    "duration": {
+      "total_duration": "6\u201312 hours (oral; individual variability high)",
+      "onset": "30\u2013120 minutes (oral; come-up may be prolonged)",
+      "peak": "2\u20134 hours",
+      "offset": "2\u20134 hours",
+      "after_effects": "2\u201324 hours (afterglow; residual stimulation or lethargy possible)"
+    },
+    "duration_curves": [
+      {
+        "method": "oral",
+        "duration_curve": {
+          "reference": "Community reports and harm-reduction summaries.",
+          "units": "hours",
+          "total_duration": {
+            "min": 6,
+            "max": 12,
+            "iso": [
+              "PT6H",
+              "PT12H"
+            ],
+            "note": "Some users report effects persisting beyond 12 h with redoses."
+          },
+          "onset": {
+            "start": 0.5,
+            "end": 2,
+            "iso_start": [
+              "PT30M"
+            ],
+            "iso_end": [
+              "PT2H"
+            ]
+          },
+          "peak": {
+            "start": 2,
+            "end": 4,
+            "iso_start": [
+              "PT2H"
+            ],
+            "iso_end": [
+              "PT4H"
+            ]
+          },
+          "offset": {
+            "start": 4,
+            "end": 8,
+            "iso_start": [
+              "PT4H"
+            ],
+            "iso_end": [
+              "PT8H"
+            ]
+          },
+          "after_effects": {
+            "start": 8,
+            "end": 24,
+            "iso_start": [
+              "PT8H"
+            ],
+            "iso_end": [
+              "PT24H"
+            ]
+          }
+        }
+      },
+      {
+        "method": "insufflated",
+        "duration_curve": {
+          "reference": "Community reports and harm-reduction summaries.",
+          "units": "hours",
+          "total_duration": {
+            "min": 4,
+            "max": 8,
+            "iso": [
+              "PT4H",
+              "PT8H"
+            ],
+            "note": "Shorter total duration vs oral."
+          },
+          "onset": {
+            "start": 0.17,
+            "end": 0.5,
+            "iso_start": [
+              "PT10M"
+            ],
+            "iso_end": [
+              "PT30M"
+            ]
+          },
+          "peak": {
+            "start": 1,
+            "end": 3,
+            "iso_start": [
+              "PT1H"
+            ],
+            "iso_end": [
+              "PT3H"
+            ]
+          },
+          "offset": {
+            "start": 3,
+            "end": 6,
+            "iso_start": [
+              "PT3H"
+            ],
+            "iso_end": [
+              "PT6H"
+            ]
+          },
+          "after_effects": {
+            "start": 6,
+            "end": 18,
+            "iso_start": [
+              "PT6H"
+            ],
+            "iso_end": [
+              "PT18H"
+            ]
+          }
+        }
+      }
+    ],
+    "addiction_potential": "Moderate. Psychological reinforcement and binge-redose patterns are reported; physical dependence is uncommon but repeated frequent dosing can increase compulsive use risk.",
+    "interactions": {
+      "dangerous": [
+        "MAOIs",
+        "SSRIs/SNRIs",
+        "Tramadol",
+        "DXM",
+        "Other serotonin releasers (e.g., MDMA, 6\u2011APB, mephedrone, methylone)",
+        "Triptans",
+        "5\u2011HTP"
+      ],
+      "unsafe": [
+        "Other stimulants (e.g., amphetamine, cocaine, MDPV)",
+        "Ibogaine",
+        "Beta-blockers used acutely with stimulants"
+      ],
+      "caution": [
+        "Alcohol",
+        "Cannabis",
+        "Benzodiazepines",
+        "Dissociatives (e.g., ketamine; avoid DXM entirely)"
+      ]
+    },
+    "notes": "Product mislabeling and salt-form variability are common in the benzofuran market; material sold as \u201cBenzo Fury\u201d may contain 5\u2011APB, 6\u2011APB, mixtures, or unrelated actives\u2014use multi-reagent testing and consider sending a small sample to a drug-checking service before dosing. The come-up can be slow (often 60\u2013120 min) with a wave-like rise; premature redosing in the first 2\u20133 hours markedly increases risk of over-intoxication, nausea, and cardiovascular strain. 5\u2011APB is commonly encountered as the HCl or succinate salt; by weight, HCl contains more active base than succinate\u2014doses should be reduced if the material is HCl or unusually pure. Reagent behavior can resemble MDMA on some tests (e.g., Marquis/Mecke dark reactions), so use a panel (e.g., Froehde, Simon\u2019s) rather than a single reagent and avoid assuming MDMA results confirm MDMA. As a serotonergic entactogen with stimulant properties, 5\u2011APB should not be combined with MAOIs, DXM, tramadol, triptans, or serotonergic supplements (5\u2011HTP) due to serotonin toxicity risk; combining with other stimulants amplifies hypertension, hyperthermia, and arrhythmia risk. Benzofurans show concerning 5\u2011HT2B activity in vitro discussions; although clinical data are limited, frequent use may pose a theoretical valvulopathy risk\u2014pace use (e.g., several weeks between sessions) and avoid if you have heart disease. Manage environment and temperature: take breaks from heat, sip water regularly, and include electrolytes on long sessions; avoid heavy alcohol (dehydration, masking warning signs). Common adverse effects include jaw clenching, nausea/vomiting on come-up, headaches during/after, insomnia, and transient anxiety\u2014dose control, cool ambient temperature, and avoiding redose can mitigate these. Insufflation is irritating and may increase intensity but reduce duration; oral administration is generally preferred for smoother effects. Cross-tolerance with MDMA/MDA and similar entactogens is reported; spacing uses reduces \u201cmuted\u201d effects and post-acute low mood. Because benzo fury-era products were often adulterated, be cautious with pressed pellets or unusually colored powders, and titrate with an accurate milligram scale after reagent testing.",
+    "subjective_effects": [
+      "Empathy enhancement",
+      "Euphoria (variable)",
+      "Increased sociability",
+      "Warmth/connectedness",
+      "Mild to moderate visuals (CEVs/OEVs)",
+      "Color saturation",
+      "Body high",
+      "Stimulation with possible sedation/flooring phases",
+      "Anxiety (dose-related)",
+      "Jaw clenching/bruxism",
+      "Insomnia",
+      "Nausea (come-up)",
+      "Temperature dysregulation (sweating/chills)",
+      "Headache (during/after in some)",
+      "Pupil dilation",
+      "Tactile enhancement"
+    ],
+    "tolerance": {
+      "model": {
+        "type": "exponential",
+        "build_rate": 0.0,
+        "decay_rate": 0.0,
+        "half_life": 168
+      },
+      "timeline": [
+        {
+          "hours": 0,
+          "tolerance_percentage": 100,
+          "confidence": 40
+        },
+        {
+          "hours": 72,
+          "tolerance_percentage": 70,
+          "confidence": 35
+        },
+        {
+          "hours": 168,
+          "tolerance_percentage": 50,
+          "confidence": 35
+        },
+        {
+          "hours": 336,
+          "tolerance_percentage": 20,
+          "confidence": 30
+        }
+      ],
+      "baselines": {
+        "full_tolerance": {
+          "hours": 24,
+          "confidence": 30
+        },
+        "half_tolerance": {
+          "hours": 168,
+          "confidence": 35
+        },
+        "baseline_tolerance": {
+          "hours": 336,
+          "confidence": 30
+        }
+      },
+      "cross_tolerances": [
+        {
+          "substance": "MDMA",
+          "ratio": 0.6,
+          "confidence": 35
+        },
+        {
+          "substance": "MDA",
+          "ratio": 0.6,
+          "confidence": 30
+        },
+        {
+          "substance": "6-APB",
+          "ratio": 0.7,
+          "confidence": 35
+        },
+        {
+          "substance": "5-MAPB",
+          "ratio": 0.7,
+          "confidence": 30
+        }
+      ],
+      "notes": "Pattern inferred from user reports across benzofurans and MDMA-like agents. Acute tolerance develops within a session; effects are notably blunted by redosing late. Subjective tolerance partially subsides over 1\u20132 weeks, with baseline often reported after 3\u20135 weeks. Data quality: anecdotal/community-derived.",
+      "data_quality": "anecdotal"
+    },
+    "half_life": "Unknown in humans; long duration of action suggests a multi-hour elimination phase. Estimates in user communities span roughly 4\u20138 h but are not from controlled PK studies.",
+    "citations": [
+      {
+        "name": "IsomerDesign PIHKAL: 5-APB (general background)",
+        "reference": "https://isomerdesign.com/pihkal/explore/2359"
+      },
+      {
+        "name": "Drugs-Forum Wiki: 5-APB (doses, onset/plateau length, reagent behavior)",
+        "reference": "https://drugs-forum.com/wiki/5-APB"
+      },
+      {
+        "name": "Bluelight: List of Dangerous & Potentially Unsafe Combinations (serotonergic/stimulant interactions)",
+        "reference": "https://www.bluelight.org/community/threads/list-of-dangerous-potentially-unsafe-combinations.648356/"
+      },
+      {
+        "name": "Bluelight: 5\u2011APB & 6\u2011APB can mimic MDMA on reagents; use Froehde/Simon's and multi-reagent panels",
+        "reference": "https://www.bluelight.org/community/threads/5-apb-and-6-apb-will-test-to-be-mdma.797511/"
+      },
+      {
+        "name": "Bluelight (discussion): Salt form commonality and HCl vs succinate considerations for benzofurans",
+        "reference": "https://www.bluelight.org/community/threads/the-main-5-apdb-thread.672585/page-3"
+      },
+      {
+        "name": "Reddit (community harm-reduction): Succinate vs HCl potency by weight math for 6\u2011APB (analogous principle for 5\u2011APB)",
+        "reference": "https://www.reddit.com/r/researchchemicals/comments/gsx8sw"
+      },
+      {
+        "name": "Bluelight: The 5\u2011HT2B receptor, valvulopathy and safety discussions (risk rationale to pace use)",
+        "reference": "https://www.bluelight.org/community/threads/the-5-ht2b-receptor-valvulopathy-and-the-apparent-safety-of-psychedelic-drugs.764546/page-2"
+      },
+      {
+        "name": "Bluelight: Big & Dandy/APB threads (reports on delayed come-up, redose effects, ROA differences)",
+        "reference": "https://www.bluelight.org/community/threads/the-big-dandy-5-apb-thread.548570/page-27"
+      }
+    ],
+    "categories": [
+      "entactogen",
+      "stimulant",
+      "psychedelic",
+      "research-chemical",
+      "habit-forming"
+    ]
   }
 ]
